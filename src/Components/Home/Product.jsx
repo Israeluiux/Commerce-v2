@@ -7,7 +7,7 @@ const Product = () => {
     useEffect(() => {
         const fetchdata = async () => {
             try {
-                const response = await fetch('http://localhost:5000/items')
+                const response = await fetch('http://localhost:7000/items')
                 const data = await response.json()
                 setItems(data)
             } catch (error) {
@@ -18,7 +18,8 @@ const Product = () => {
     }, [])
 
     return(
-        <section className="px-32 relative flex justify-center items-center" style={{marginTop: '-5rem'}}>
+        <>
+         <section className="px-4 md:px-24 relative " style={{marginTop: '-5rem'}}>
           <div className="bg-white p-6 z-20 rounded-t-3xl">
             <div className="flex justify-between items-center">
                 <p className="text-3xl ">Get All You Need</p>
@@ -30,7 +31,7 @@ const Product = () => {
                     <button className="bg-black text-white p-2 rounded-3xl absolute right-1">Search</button>
                 </div>
             </div>
-        <div className="grid grid-cols-3 my-16 gap-8">
+        <div className="grid  my-12 gap-8" style={{gridTemplateColumns: 'repeat(auto-fit, minmax(18rem, 1fr))'}}>
             {
                 item.map(item => (
                     <Card item={item} key={item.id} />
@@ -38,7 +39,8 @@ const Product = () => {
             }
         </div>
           </div>
-        </section>
+         </section>
+        </>
     )
 }
 

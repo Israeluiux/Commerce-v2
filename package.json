@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "start": "concurrently \"npm run dev\" \"npm run api\"",
-    "api": "json-server --watch db.json --port 5000"
+    "api": "json-server --watch db.json --port 7000"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.13",

@@ -6,7 +6,7 @@ const Card = ({ item }) => {
     const price = Number(item.price).toFixed(2)
     
     return(
-            <div className="w-72 rounded-2xl relative">
+            <div className="rounded-2xl relative">
             <div className="absolute py-1.5 px-2.5 bg-white rounded-3xl text-xs right-3 top-3 outline-1 outline-gray-300">{item.category}</div>
             <div className="h-56 bg-[#d6d6d6] rounded-2xl"><img className="w-full h-full object-cover rounded-2xl " src={item.productImage} alt="" /></div>
             <p className="my-3 text-2xl">{item.product}</p>
