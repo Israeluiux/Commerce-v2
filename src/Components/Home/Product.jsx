@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react"
 import Card from "./Card"
+import { useParams } from "react-router-dom"
 
 const Product = () => {
     const [item, setItems] = useState([])
+    const { id } = useParams()
 
     useEffect(() => {
         const fetchdata = async () => {
@@ -34,7 +36,7 @@ const Product = () => {
         <div className="grid  my-12 gap-8" style={{gridTemplateColumns: 'repeat(auto-fit, minmax(18rem, 1fr))'}}>
             {
                 item.map(item => (
-                    <Card item={item} key={item.id} />
+                    <Card item={item} key={item.id} link={`product/${item.id}`} />
                 ))
             }
         </div>

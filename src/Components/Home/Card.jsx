@@ -2,7 +2,7 @@ import { useState } from "react"
 import { FaStar } from "react-icons/fa6"
 import { Link } from "react-router-dom"
 
-const Card = ({ item }) => {
+const Card = ({ item, link }) => {
     const price = Number(item.price).toFixed(2)
     
     return(
@@ -16,7 +16,7 @@ const Card = ({ item }) => {
             </div>
             <div className="flex justify-between mt-4">
                 <Link className="w-35 p-3 flex justify-center items-center outline-gray-300 outline-1 rounded-3xl hover:bg-[#0000001d]"><span>Add to Cart</span></Link>
-                <Link className="w-35 flex justify-center items-center bg-black text-white rounded-3xl hover:bg-[#333]"><span>Buy Now</span></Link>
+                <Link to={link} className="w-35 flex justify-center items-center bg-black text-white rounded-3xl hover:bg-[#333]"><span>Buy Now</span></Link>
             </div>
             </div>
     )

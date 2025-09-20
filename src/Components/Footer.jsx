@@ -1,3 +1,5 @@
+import { FaFacebook, FaFacebookF, FaInstagram, FaLinkedin, FaTwitter, FaX } from "react-icons/fa6"
+
 const Footer = () => {
     return(
         <section className="px-32 py-8">
@@ -24,12 +26,12 @@ const Footer = () => {
             </div>
         {/* right */}
             <div className="flex flex-col justify-end">
-                <p className="text-[#3e3e3e]">Social media</p>
-                <div className="flex">
-                    <p>Twitter</p>
-                    <p>Twitter</p>
-                    <p>Twitter</p>
-                    <p>Twitter</p>
+                <p className="text-[#3e3e3e] mb-4">Social media</p>
+                <div className="flex gap-2">
+                    <FaX size={30} className="outline p-1.5 rounded-4xl bg-black text-white"/>
+                    <FaFacebookF size={30} className="outline p-1.5 rounded-4xl bg-black text-white"/>
+                    <FaLinkedin size={30} className="outline p-1.5 rounded-4xl bg-black text-white"/>
+                    <FaInstagram size={30} className="outline p-1.5 rounded-4xl bg-black text-white"/>
                 </div>
             </div>
             </div>

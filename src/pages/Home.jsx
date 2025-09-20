@@ -11,7 +11,7 @@ const Home = () => {
       <Product />
       {/* <Recommend /> */}
       <Trending />
-      <CTO />
+      <CTO size='px-32' />
     </div>
   );
 };
