@@ -1,6 +1,6 @@
 const CTO = ({ size }) => {
     return(
-        <section className={`${size} py-8`}>
+        <section className={`${size} py-8 max-w-screen-xl m-auto`}>
             <div className="p-6 bg-gray-950 h-72 rounded-3xl text-white flex gap-28 ">
                 <div className="flex flex-col gap-6 justify-between">
                     <p className="text-6xl leading-18">Ready to Get Our New Stuff</p>

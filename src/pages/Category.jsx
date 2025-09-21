@@ -1,7 +1,7 @@
-import TrendCard from './Trendingcard'
-import { useEffect, useState } from 'react'
+import { useEffect, useState } from "react"
+import TrendCard from "../Components/Home/Trendingcard"
 
-const Trending = () => {
+const Category = () => {
     const [category, setCategory] = useState([])
 
     useEffect(() => {
@@ -9,27 +9,27 @@ const Trending = () => {
             try {
                 const response = await fetch('http://localhost:7000/category')
                 const data = await response.json()
-                setCategory(data.slice(0, 4))
+                setCategory(data.slice())
             } catch (error) {
                 console.error(error)
             }
         }
         fetchdata()
     }, [])
-    
+
 
     return(
-            <section className="px-32 py-8 max-w-screen-xl m-auto">
-                <p className="text-3xl mb-8">Explore Trending Categories</p>
-                <div className="grid gap-4" style={{gridTemplateColumns: 'repeat(auto-fit, minmax(30rem, 1fr))'}}>
+        <section className="pt-32 px-32 max-w-screen-xl m-auto">
+             <p className="text-3xl mb-8">Explore Categories</p>
+            <div className="grid gap-4" style={{gridTemplateColumns: 'repeat(auto-fit, minmax(30rem, 1fr))'}}>
                     {
                         category.map(each => (
                             <TrendCard img={each.image} text={each.text} key={each.id} />
                         ))
                     }
-                </div>
-            </section>
+            </div>
+        </section>
     )
 }
 
-export default Trending
+export default Category

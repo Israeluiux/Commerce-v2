@@ -2,7 +2,7 @@ import { FaFacebook, FaFacebookF, FaInstagram, FaLinkedin, FaTwitter, FaX } from
 
 const Footer = () => {
     return(
-        <section className="px-32 py-8">
+        <section className="px-32 py-8  max-w-screen-xl m-auto">
             <div className="flex justify-between mb-8">
                 {/* left */}
             <div className="flex gap-16">

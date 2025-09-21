@@ -1,3 +1,5 @@
+import { FaArrowRight, FaArrowRightArrowLeft } from "react-icons/fa6"
+
 const TrendCard = ({ img, text }) => {
     return(
         <>
@@ -6,7 +8,7 @@ const TrendCard = ({ img, text }) => {
                     <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent rounded-3xl"></div>
                     <div className=" absolute bottom-8 left-4">
                         <p className="text-2xl font-bold text-white mb-2 w-[90%]">{text}</p>
-                        <button className="px-5 py-2.5 bg-white text-black rounded-3xl hover:bg-[#333] hover:text-white">Buy now</button>
+                        <button className="px-5 py-2.5 bg-white text-black rounded-3xl hover:bg-[#333] hover:text-white flex items-center gap-2"><span>Explore category</span> <FaArrowRight /> </button>
                     </div>
                 </div>
         </>

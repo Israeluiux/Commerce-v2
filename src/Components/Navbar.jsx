@@ -16,7 +16,8 @@ const Navbar = () => {
                     <div className=" text-2xl font-bold">Logo</div>
                     <ul className="hidden md:flex gap-3">
                         <li><Link to='/' className="px-4 py-2.5 rounded-2xl hover:bg-gray-300">Home</Link></li>
-                        <li><Link to='/shop' className="px-4 py-2.5 rounded-2xl hover:bg-gray-300">Shop</Link></li>
+                        <li><Link to='/categories' className="px-4 py-2.5 rounded-2xl hover:bg-gray-300">Categories</Link></li>
+                        <li><Link to='/products' className="px-4 py-2.5 rounded-2xl hover:bg-gray-300">Products</Link></li>
                         <li><Link to='/blog' className="px-4 py-2.5 rounded-2xl hover:bg-gray-300">Blog</Link></li>
                     </ul>
                     <div className="hidden md:flex items-center gap-2">

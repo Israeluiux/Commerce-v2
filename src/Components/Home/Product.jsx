@@ -21,7 +21,7 @@ const Product = () => {
 
     return(
         <>
-         <section className="px-4 md:px-24 relative " style={{marginTop: '-5rem'}}>
+         <section className="px-4 md:px-24 relative max-w-screen-xl m-auto " style={{marginTop: '-5rem'}}>
           <div className="bg-white p-6 z-20 rounded-t-3xl">
             <div className="flex justify-between items-center">
                 <p className="text-3xl ">Get All You Need</p>

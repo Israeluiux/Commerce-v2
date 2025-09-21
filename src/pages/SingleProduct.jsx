@@ -12,7 +12,7 @@ const SingleProduct = () => {
             try {
                 const response = await fetch('http://localhost:7000/items')
                 const data = await response.json()
-                setItem(data.slice(0, 3))
+                setItem(data.slice(0, 9))
             } catch (error) {
                 console.log(error)
             }
@@ -21,14 +21,14 @@ const SingleProduct = () => {
     }, [])
 
     return(
-        <section className="pt-32 pb-4 px-32 flex justify-center flex-col">
+        <section className="pt-32 pb-4 px-32 flex justify-center flex-col  max-w-screen-xl m-auto">
             <SingleProductCard />
             <section className="pt-12">
                 <p className="text-4xl">Suggested for you</p>
                 <div className="grid  my-12 gap-8" style={{gridTemplateColumns: 'repeat(auto-fit, minmax(18rem, 1fr))'}}>
                     {
                         item.map(each => (
-                            <Card item={each} />
+                            <Card key={each.id} item={each} />
                         ))
                     }
                 </div>
