@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { FaBasketShopping, FaHeart, FaStar, FaTruck } from "react-icons/fa6"
+import { FaBasketShopping, FaHeart, FaMinus, FaPlus, FaStar, FaTruck } from "react-icons/fa6"
 import { useParams } from "react-router-dom"
 
 const SingleProductCard = () => {
@@ -8,6 +8,7 @@ const SingleProductCard = () => {
     const [review, setReview] = useState(0)
     const [userReview, setUserReview] = useState([])
     const [loading, setLoading] = useState(true)
+    const [count, setCount] = useState(1)
     
     useEffect(() => {
         const fetchdata = async () => {
@@ -27,6 +28,16 @@ const SingleProductCard = () => {
         fetchdata()
     }, [id])
 
+    const decrease = () => {
+        const current = count
+        count < 2 ? setCount(1) : setCount(current - 1)
+    }
+
+    const increase = () => {
+        const current = count
+        setCount(current + 1)
+    }
+
     if(loading === true){
         return(
             <>
@@ -39,7 +50,7 @@ const SingleProductCard = () => {
             <section>
                 {/* Top section - product details */}
                 <div className="flex gap-12 items-center m-auto">
-                    <div className="w-120 h-120 bg-[#d6d6d6] rounded-2xl"><img className="rounded-2xl w-full h-full object-cover" src={item.productImage} alt="" /></div>
+                    <div className="w-120 h-120 bg-[#d6d6d6] rounded-2xl"><img className="rounded-2xl w-full h-full object-cover" src={item.media.thumbnail} alt="" /></div>
                     {/* right side */}
                     <div className="w-[50%]">
                         <div className="flex justify-between">
@@ -68,6 +79,14 @@ const SingleProductCard = () => {
                         <div className="size my-4">
                             <p className="mb-2">Units left:</p>
                             <h1><span className="text-2xl font-bold">{item.inventory.stockQuantity}</span> <span>units</span></h1>
+                        </div>
+                        <div className="size my-6">
+                            <p className="mb-2"></p>
+                            <div className="buttons flex gap-4 items-center">
+                                <button onClick={decrease} className="p-4 bg-black text-white rounded-3xl cursor-pointer"><FaMinus /> </button>
+                                <p className="text-3xl font-bold">{count}</p>
+                                <button onClick={increase} className="p-4 bg-black text-white rounded-3xl cursor-pointer"><FaPlus /> </button>
+                            </div>
                         </div>
                         {/* CTOS */}
                         <div className="flex gap-2">

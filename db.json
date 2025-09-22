@@ -7,7 +7,7 @@
     "description": "High-quality wireless headphones with noise cancellation and 30 hours of battery life.",
     "shortDescription": "Noise-cancelling wireless headphones.",
     "media": {
-      "thumbnail": "https://example.com/products/headphones-thumb.jpg",
+      "thumbnail": "https://i.pinimg.com/1200x/7c/df/80/7cdf80cd358ece006eb656c8dfd47853.jpg ",
       "images": [
         { "url": "https://example.com/products/headphones1.jpg", "alt": "Headphones front" },
         { "url": "https://example.com/products/headphones2.jpg", "alt": "Headphones side" }
@@ -43,7 +43,7 @@
     "description": "Flagship smartphone with AMOLED display, 5G support, and triple camera system.",
     "shortDescription": "5G smartphone with AMOLED display.",
     "media": {
-      "thumbnail": "https://example.com/products/phone-thumb.jpg",
+      "thumbnail": "https://i.pinimg.com/736x/0d/e5/2a/0de52a5b6c1d9c0a0d0e18bef9cb4ba1.jpg",
       "images": [
         { "url": "https://example.com/products/phone1.jpg", "alt": "Phone front" },
         { "url": "https://example.com/products/phone2.jpg", "alt": "Phone back" }
@@ -80,7 +80,7 @@
     "description": "Powerful laptop with 15-inch Retina display, M2 chip, and 16GB RAM.",
     "shortDescription": "15-inch laptop with M2 chip.",
     "media": {
-      "thumbnail": "https://example.com/products/laptop-thumb.jpg",
+      "thumbnail": "https://i.pinimg.com/736x/e2/e3/2e/e2e32ea9a3d8ec07a29a01dc7e7d67e6.jpg",
       "images": [
         { "url": "https://example.com/products/laptop1.jpg", "alt": "Laptop open" },
         { "url": "https://example.com/products/laptop2.jpg", "alt": "Laptop closed" }
@@ -117,7 +117,7 @@
     "description": "55-inch 4K UHD Smart TV with HDR and built-in streaming apps.",
     "shortDescription": "4K HDR Smart TV.",
     "media": {
-      "thumbnail": "https://example.com/products/tv-thumb.jpg",
+      "thumbnail": "https://i.pinimg.com/1200x/b2/6a/97/b26a970825929f5740da000f5db8adcb.jpg",
       "images": [
         { "url": "https://example.com/products/tv1.jpg", "alt": "TV front" }
       ]
@@ -151,7 +151,7 @@
     "description": "Water-resistant smartwatch with heart rate monitor, GPS, and 7-day battery.",
     "shortDescription": "Smartwatch with health tracking.",
     "media": {
-      "thumbnail": "https://example.com/products/watch-thumb.jpg",
+      "thumbnail": "https://i.pinimg.com/736x/49/02/1e/49021e6189059ae2fd1ae8a1d8eb906b.jpg",
       "images": [
         { "url": "https://example.com/products/watch1.jpg", "alt": "Smartwatch display" }
       ]
@@ -185,7 +185,7 @@
     "description": "Portable Bluetooth speaker with deep bass and 12-hour playtime.",
     "shortDescription": "Portable Bluetooth speaker.",
     "media": {
-      "thumbnail": "https://example.com/products/speaker-thumb.jpg",
+      "thumbnail": "https://i.pinimg.com/736x/1f/05/22/1f0522096ebd233f31014e662fead582.jpg",
       "images": [
         { "url": "https://example.com/products/speaker1.jpg", "alt": "Bluetooth speaker" }
       ]
@@ -219,7 +219,7 @@
     "description": "Ergonomic gaming mouse with customizable RGB lighting and 8 programmable buttons.",
     "shortDescription": "RGB gaming mouse.",
     "media": {
-      "thumbnail": "https://example.com/products/mouse-thumb.jpg",
+      "thumbnail": "https://i.pinimg.com/736x/bb/31/c2/bb31c26fcffdf72b62c5895e96d42b7a.jpg",
       "images": [
         { "url": "https://example.com/products/mouse1.jpg", "alt": "Gaming mouse" }
       ]
@@ -256,7 +256,7 @@
     "description": "Mechanical keyboard with hot-swappable switches, RGB backlight, and aluminum frame.",
     "shortDescription": "RGB mechanical keyboard.",
     "media": {
-      "thumbnail": "https://example.com/products/keyboard-thumb.jpg",
+      "thumbnail": "https://i.pinimg.com/1200x/04/af/be/04afbee32f613a8765356f8ba6057a23.jpg",
       "images": [
         { "url": "https://example.com/products/keyboard1.jpg", "alt": "Mechanical keyboard" }
       ]
@@ -293,7 +293,7 @@
     "description": "Professional DSLR camera with 24MP sensor, 4K video recording, and Wi-Fi connectivity.",
     "shortDescription": "24MP DSLR camera.",
     "media": {
-      "thumbnail": "https://example.com/products/camera-thumb.jpg",
+      "thumbnail": "https://i.pinimg.com/1200x/08/d0/fe/08d0fed8dd4302e0287c79283758956a.jpg",
       "images": [
         { "url": "https://example.com/products/camera1.jpg", "alt": "DSLR camera" }
       ]
@@ -329,7 +329,7 @@
     "description": "HEPA air purifier suitable for rooms up to 500 sq. ft with quiet operation mode.",
     "shortDescription": "HEPA filter air purifier.",
     "media": {
-      "thumbnail": "https://example.com/products/airpurifier-thumb.jpg",
+      "thumbnail": "https://i.pinimg.com/736x/65/9c/5c/659c5ca44fecdeeb190ca876111caca2.jpg",
       "images": [
         { "url": "https://example.com/products/airpurifier1.jpg", "alt": "Air purifier" }
       ]
@@ -365,7 +365,7 @@
     "description": "Compact and waterproof Bluetooth speaker with rich bass and 12-hour battery life.",
     "shortDescription": "Waterproof Bluetooth speaker.",
     "media": {
-      "thumbnail": "https://example.com/products/speaker-thumb.jpg",
+      "thumbnail": "https://i.pinimg.com/736x/1f/05/22/1f0522096ebd233f31014e662fead582.jpg",
       "images": [
         { "url": "https://example.com/products/speaker1.jpg", "alt": "Speaker front" },
         { "url": "https://example.com/products/speaker2.jpg", "alt": "Speaker side" }
@@ -400,7 +400,7 @@
     "description": "Advanced smartwatch with heart rate monitor, GPS, and customizable watch faces.",
     "shortDescription": "Fitness and lifestyle smartwatch.",
     "media": {
-      "thumbnail": "https://example.com/products/smartwatch-thumb.jpg",
+      "thumbnail": "https://i.pinimg.com/736x/49/02/1e/49021e6189059ae2fd1ae8a1d8eb906b.jpg",
       "images": [
         { "url": "https://example.com/products/smartwatch1.jpg", "alt": "Smartwatch front" },
         { "url": "https://example.com/products/smartwatch2.jpg", "alt": "Smartwatch straps" }
@@ -435,7 +435,7 @@
     "description": "Professional DSLR camera with 24MP sensor, 4K video recording, and interchangeable lenses.",
     "shortDescription": "24MP DSLR camera with 4K video.",
     "media": {
-      "thumbnail": "https://example.com/products/camera-thumb.jpg",
+      "thumbnail": "https://i.pinimg.com/1200x/77/9f/e3/779fe3e23b6a32cb8d93369a4b9910af.jpg",
       "images": [
         { "url": "https://example.com/products/camera1.jpg", "alt": "Camera front" },
         { "url": "https://example.com/products/camera2.jpg", "alt": "Camera with lens" }
@@ -472,7 +472,7 @@
     "description": "Next-gen gaming console with 8K support, ray tracing, and 1TB SSD storage.",
     "shortDescription": "Powerful next-gen gaming console.",
     "media": {
-      "thumbnail": "https://example.com/products/console-thumb.jpg",
+      "thumbnail": "https://i.pinimg.com/1200x/6f/87/84/6f87846bcf3b7f225b9af211a5d54f10.jpg",
       "images": [
         { "url": "https://example.com/products/console1.jpg", "alt": "Console front" },
         { "url": "https://example.com/products/console2.jpg", "alt": "Console controller" }
@@ -509,7 +509,7 @@
     "description": "RGB backlit mechanical keyboard with customizable macros and blue switches.",
     "shortDescription": "Mechanical keyboard with RGB lighting.",
     "media": {
-      "thumbnail": "https://example.com/products/keyboard-thumb.jpg",
+      "thumbnail": "https://i.pinimg.com/1200x/04/af/be/04afbee32f613a8765356f8ba6057a23.jpg",
       "images": [
         { "url": "https://example.com/products/keyboard1.jpg", "alt": "Keyboard top view" },
         { "url": "https://example.com/products/keyboard2.jpg", "alt": "Keyboard side profile" }
@@ -545,7 +545,7 @@
     "description": "Ultra HD smart TV with HDR10+, built-in streaming apps, and voice control.",
     "shortDescription": "55-inch 4K HDR smart TV.",
     "media": {
-      "thumbnail": "https://example.com/products/tv-thumb.jpg",
+      "thumbnail": "https://i.pinimg.com/1200x/b2/6a/97/b26a970825929f5740da000f5db8adcb.jpg",
       "images": [
         { "url": "https://example.com/products/tv1.jpg", "alt": "TV front view" },
         { "url": "https://example.com/products/tv2.jpg", "alt": "TV side view" }
@@ -582,7 +582,7 @@
     "description": "Smart robot vacuum with mapping, auto-charging, and voice assistant compatibility.",
     "shortDescription": "AI-powered robot vacuum cleaner.",
     "media": {
-      "thumbnail": "https://example.com/products/robotvac-thumb.jpg",
+      "thumbnail": "https://i.pinimg.com/736x/63/6d/87/636d8755414a887b3f25453526b0cee4.jpg",
       "images": [
         { "url": "https://example.com/products/robotvac1.jpg", "alt": "Robot vacuum top" },
         { "url": "https://example.com/products/robotvac2.jpg", "alt": "Robot vacuum docked" }
@@ -618,7 +618,7 @@
     "description": "Large capacity air fryer with digital controls, 12 cooking presets, and rapid heat circulation.",
     "shortDescription": "6L digital air fryer.",
     "media": {
-      "thumbnail": "https://example.com/products/airfryer-thumb.jpg",
+      "thumbnail": "https://i.pinimg.com/1200x/a4/fa/b9/a4fab924b21bbaca69ed7e0552bd9454.jpg",
       "images": [
         { "url": "https://example.com/products/airfryer1.jpg", "alt": "Air fryer front" },
         { "url": "https://example.com/products/airfryer2.jpg", "alt": "Air fryer open basket" }
@@ -654,7 +654,7 @@
     "description": "Stylish glass kettle with LED light, auto shut-off, and boil-dry protection.",
     "shortDescription": "1.7L glass electric kettle.",
     "media": {
-      "thumbnail": "https://example.com/products/kettle-thumb.jpg",
+      "thumbnail": "https://i.pinimg.com/1200x/71/99/1c/71991c95df6cc8b0bdde960208619d90.jpg",
       "images": [
         { "url": "https://example.com/products/kettle1.jpg", "alt": "Kettle side view" },
         { "url": "https://example.com/products/kettle2.jpg", "alt": "Kettle with LED light" }
@@ -690,7 +690,7 @@
     "description": "HEPA air purifier with WiFi control, real-time air quality monitoring, and 4 fan speeds.",
     "shortDescription": "Smart HEPA air purifier.",
     "media": {
-      "thumbnail": "https://example.com/products/airpurifier-thumb.jpg",
+      "thumbnail": "https://i.pinimg.com/736x/ef/22/e5/ef22e51573639d30508a3a1d2cbd819b.jpg",
       "images": [
         { "url": "https://example.com/products/airpurifier1.jpg", "alt": "Air purifier front" },
         { "url": "https://example.com/products/airpurifier2.jpg", "alt": "Air purifier display" }
