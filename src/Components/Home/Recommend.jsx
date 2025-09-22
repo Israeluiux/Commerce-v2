@@ -8,7 +8,7 @@ const Recommend = () => {
     useEffect(() => {
         const fetchdata = async () => {
             try {
-                const response = await fetch('http://localhost:5000/items')
+                const response = await fetch('https://commerce-backend-7eug.onrender.com/items')
                 const data = await response.json()
                 setItem(data)
             } catch (error) {

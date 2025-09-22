@@ -7,7 +7,7 @@ const Trending = () => {
     useEffect(() => {
         const fetchdata = async () => {
             try {
-                const response = await fetch('http://localhost:7000/category')
+                const response = await fetch('https://commerce-backend-7eug.onrender.com/category')
                 const data = await response.json()
                 setCategory(data.slice(0, 4))
             } catch (error) {
