@@ -52,7 +52,7 @@ const SingleProductCard = () => {
                 <div className="flex gap-12 items-center m-auto flex-col md:flex-row ">
                     <div className=" w-full h-100 md:w-120 md:h-120 bg-[#d6d6d6] rounded-2xl"><img className="rounded-2xl w-full h-full object-cover" src={item.media.thumbnail} alt="" /></div>
                     {/* right side */}
-                    <div className="bg-yellow-100 w-full md:w-[50%]">
+                    <div className="w-full md:w-[50%]">
                         <div className="flex justify-between">
                             <p>{item.brand.name}</p>
                             <p className="text-black/35">{item.id}</p>
