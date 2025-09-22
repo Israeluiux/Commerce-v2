@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
-  base: process.env.VITE_BASE_PATH || "/Commerce-v2"
+  base: process.env.VITE_BASE_PATH || "/"
 })
