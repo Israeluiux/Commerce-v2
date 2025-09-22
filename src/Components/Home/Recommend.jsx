@@ -24,11 +24,6 @@ const Recommend = () => {
 
       <div className="flex gap-8 overflow-x-auto no-scrollbar scroll-smooth">
         {item.map((card, idx) => (
-        //   <div
-        //     key={idx}
-        //     className="min-w-[160px] bg-white shadow rounded-xl flex-shrink-0 p-4 text-center"
-        //   >
-        //   </div>
             <Card item={card}/>
             
         ))}

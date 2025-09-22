@@ -21,11 +21,11 @@ const SingleProduct = () => {
     }, [])
 
     return(
-        <section className="pt-32 pb-4 px-32 flex justify-center flex-col  max-w-screen-xl m-auto">
+        <section className="px-3 sm:px-6 lg:px-32 pt-32 pb-4 flex justify-center flex-col  max-w-screen-xl m-auto">
             <SingleProductCard />
             <section className="pt-12">
                 <p className="text-4xl">Suggested for you</p>
-                <div className="grid  my-12 gap-8" style={{gridTemplateColumns: 'repeat(auto-fit, minmax(18rem, 1fr))'}}>
+                <div className="grid  my-12 gap-8" style={{gridTemplateColumns: 'repeat(auto-fit, minmax(14rem, 1fr))'}}>
                     {
                         item.map(each => (
                             <Card key={each.id} item={each} />
@@ -33,7 +33,7 @@ const SingleProduct = () => {
                     }
                 </div>
             </section>
-            <CTO />
+            <CTO small='px-0' size='px-0' />
         </section>
     )
 }

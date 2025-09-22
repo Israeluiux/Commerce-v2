@@ -49,10 +49,10 @@ const SingleProductCard = () => {
         return(
             <section>
                 {/* Top section - product details */}
-                <div className="flex gap-12 items-center m-auto">
-                    <div className="w-120 h-120 bg-[#d6d6d6] rounded-2xl"><img className="rounded-2xl w-full h-full object-cover" src={item.media.thumbnail} alt="" /></div>
+                <div className="flex gap-12 items-center m-auto flex-col md:flex-row ">
+                    <div className=" w-full h-100 md:w-120 md:h-120 bg-[#d6d6d6] rounded-2xl"><img className="rounded-2xl w-full h-full object-cover" src={item.media.thumbnail} alt="" /></div>
                     {/* right side */}
-                    <div className="w-[50%]">
+                    <div className="bg-yellow-100 w-full md:w-[50%]">
                         <div className="flex justify-between">
                             <p>{item.brand.name}</p>
                             <p className="text-black/35">{item.id}</p>
@@ -90,7 +90,7 @@ const SingleProductCard = () => {
                         </div>
                         {/* CTOS */}
                         <div className="flex gap-2">
-                            <button className="p-4 px-30 flex items-center gap-2.5 cursor-pointer rounded-2xl bg-black text-white"><FaBasketShopping size={20} /> <span>Add to cart</span></button>
+                            <button className="p-4 w-full justify-center flex items-center gap-2.5 cursor-pointer rounded-2xl bg-black text-white"><FaBasketShopping size={20} /> <span className="">Add to cart</span></button>
                             <button className="p-4 px-5 cursor-pointer rounded-2xl bg-[#d6d6d6] text-white"><FaHeart size={20} /></button>
                         </div>
                         <p className="mt-3 flex items-center gap-2 text-sm"><FaTruck /> <span>Free delivery on orders over $300</span></p>

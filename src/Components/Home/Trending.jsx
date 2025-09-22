@@ -19,9 +19,9 @@ const Trending = () => {
     
 
     return(
-            <section className="px-32 py-8 max-w-screen-xl m-auto">
+            <section className="px-3 sm:px-6 lg:px-32 py-8 max-w-screen-xl m-auto">
                 <p className="text-3xl mb-8">Explore Trending Categories</p>
-                <div className="grid gap-4" style={{gridTemplateColumns: 'repeat(auto-fit, minmax(30rem, 1fr))'}}>
+                <div className=" grid gap-4" style={{gridTemplateColumns: 'repeat(auto-fit, minmax(23rem, 1fr))'}}>
                     {
                         category.map(each => (
                             <TrendCard img={each.image} text={each.text} key={each.id} />
