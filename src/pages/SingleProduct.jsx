@@ -21,7 +21,7 @@ const SingleProduct = () => {
     }, [])
 
     return(
-        <section className="px-3 sm:px-6 lg:px-32 pt-32 pb-4 flex justify-center flex-col  max-w-screen-xl m-auto">
+        <section className="px-3 sm:px-6 lg:px-32 pt-8 pb-4 flex justify-center flex-col  max-w-screen-xl m-auto">
             <SingleProductCard />
             <section className="pt-12">
                 <p className="text-4xl">Suggested for you</p>

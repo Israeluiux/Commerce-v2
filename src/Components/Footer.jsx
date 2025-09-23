@@ -2,7 +2,7 @@ import { FaFacebook, FaFacebookF, FaInstagram, FaLinkedin, FaTwitter, FaX } from
 
 const Footer = () => {
     return(
-        <section className=" px-3 sm:px-6 lg:px-32 py-8  max-w-screen-xl m-auto">
+        <section className=" px-4 sm:px-6 lg:px-32 py-8  max-w-screen-xl m-auto">
             <div className=" flex-col flex gap-6 mb-8 md:flex-row md:justify-between">
                 {/* left */}
             <div className="flex gap-16">
@@ -36,7 +36,7 @@ const Footer = () => {
             </div>
             </div>
             <div className="outline outline-gray-200"></div>
-            <div className="flex justify-between py-6">
+            <div className="flex-col gap-8 md:flex-row flex justify-between py-6 ">
                 <p className="text-[#333]">Copyright &copy;2025 Balogun. All Right Reserved</p>
                 <div className="flex gap-8">
                     <p className="text-[#333]">Term of service</p>

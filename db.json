@@ -1,0 +1,806 @@
+{
+  "items": [
+  {
+    "id": "prod_001",
+    "name": "Wireless Headphones",
+    "slug": "wireless-headphones",
+    "description": "High-quality wireless headphones with noise cancellation and 30 hours of battery life.",
+    "shortDescription": "Noise-cancelling wireless headphones.",
+    "media": {
+      "thumbnail": "https://i.pinimg.com/1200x/7c/df/80/7cdf80cd358ece006eb656c8dfd47853.jpg ",
+      "images": [
+        { "url": "https://example.com/products/headphones1.jpg", "alt": "Headphones front" },
+        { "url": "https://example.com/products/headphones2.jpg", "alt": "Headphones side" }
+      ]
+    },
+    "pricing": { "price": 199.99, "salePrice": 149.99, "currency": "USD" },
+    "categorization": { "category": "Electronics", "subCategory": "Audio" },
+    "inventory": { "sku": "WH-1234", "stockQuantity": 120 },
+    "brand": { "name": "SoundMax" },
+    "logistics": { "returnPolicy": "30-day return policy" },
+    "engagement": { "rating": 4.5, "wishlistCount": 340 },
+    "meta": {
+      "createdAt": "2025-05-10T10:00:00Z",
+      "updatedAt": "2025-09-15T15:00:00Z",
+      "status": "active"
+    },
+    "specifications": [
+      { "label": "Connectivity", "value": "Bluetooth 5.2" },
+      { "label": "Battery Life", "value": "30 hours" },
+      { "label": "Charging Port", "value": "USB-C Fast Charging" },
+      { "label": "Driver Size", "value": "40mm" },
+      { "label": "Noise Cancellation", "value": "Active Noise Cancellation (ANC)" },
+      { "label": "Weight", "value": "250g" },
+      { "label": "Compatibility", "value": "iOS, Android, Windows" },
+      { "label": "Warranty", "value": "1 Year Manufacturer Warranty" }
+    ]
+
+  },
+  {
+    "id": "prod_002",
+    "name": "Smartphone X200",
+    "slug": "smartphone-x200",
+    "description": "Flagship smartphone with AMOLED display, 5G support, and triple camera system.",
+    "shortDescription": "5G smartphone with AMOLED display.",
+    "media": {
+      "thumbnail": "https://i.pinimg.com/736x/0d/e5/2a/0de52a5b6c1d9c0a0d0e18bef9cb4ba1.jpg",
+      "images": [
+        { "url": "https://example.com/products/phone1.jpg", "alt": "Phone front" },
+        { "url": "https://example.com/products/phone2.jpg", "alt": "Phone back" }
+      ]
+    },
+    "pricing": { "price": 899.99, "currency": "USD" },
+    "categorization": { "category": "Electronics", "subCategory": "Mobile Phones" },
+    "inventory": { "sku": "SPX200-BLK", "stockQuantity": 50 },
+    "brand": { "name": "TechOne" },
+    "logistics": { "returnPolicy": "14-day return policy" },
+    "engagement": { "rating": 4.8, "wishlistCount": 890 },
+    "meta": {
+      "createdAt": "2025-06-01T08:00:00Z",
+      "updatedAt": "2025-09-10T12:00:00Z",
+      "status": "active"
+    },
+    "specifications": [
+      { "label": "Display", "value": "6.7-inch AMOLED, 120Hz" },
+      { "label": "Resolution", "value": "3200 x 1440" },
+      { "label": "Processor", "value": "Octa-Core Snapdragon 8 Gen 3" },
+      { "label": "RAM", "value": "12GB" },
+      { "label": "Storage", "value": "256GB" },
+      { "label": "Battery", "value": "5000mAh, 65W fast charging" },
+      { "label": "Camera", "value": "108MP + 12MP + 8MP Triple Rear, 32MP Front" },
+      { "label": "OS", "value": "Android 14" },
+      { "label": "Network", "value": "5G, WiFi 6E, Bluetooth 5.3" },
+      { "label": "Weight", "value": "210g" }
+    ]
+  },
+  {
+    "id": "prod_003",
+    "name": "Laptop Pro 15",
+    "slug": "laptop-pro-15",
+    "description": "Powerful laptop with 15-inch Retina display, M2 chip, and 16GB RAM.",
+    "shortDescription": "15-inch laptop with M2 chip.",
+    "media": {
+      "thumbnail": "https://i.pinimg.com/736x/e2/e3/2e/e2e32ea9a3d8ec07a29a01dc7e7d67e6.jpg",
+      "images": [
+        { "url": "https://example.com/products/laptop1.jpg", "alt": "Laptop open" },
+        { "url": "https://example.com/products/laptop2.jpg", "alt": "Laptop closed" }
+      ]
+    },
+    "pricing": { "price": 1999.99, "currency": "USD" },
+    "categorization": { "category": "Electronics", "subCategory": "Laptops" },
+    "inventory": { "sku": "LP15-M2", "stockQuantity": 35 },
+    "brand": { "name": "NextGen" },
+    "logistics": { "returnPolicy": "21-day return policy" },
+    "engagement": { "rating": 4.7, "wishlistCount": 450 },
+    "meta": {
+      "createdAt": "2025-04-20T09:00:00Z",
+      "updatedAt": "2025-09-12T14:00:00Z",
+      "status": "active"
+    },
+    "specifications": [
+      { "label": "Display", "value": "15.4-inch Retina, True Tone" },
+      { "label": "Resolution", "value": "2880 x 1800" },
+      { "label": "Processor", "value": "Apple M2 Pro Chip" },
+      { "label": "RAM", "value": "16GB Unified Memory" },
+      { "label": "Storage", "value": "512GB SSD" },
+      { "label": "GPU", "value": "Integrated 16-core GPU" },
+      { "label": "Battery", "value": "Up to 20 hours" },
+      { "label": "OS", "value": "macOS Sequoia" },
+      { "label": "Ports", "value": "2x Thunderbolt 4, HDMI, SDXC Card Slot" },
+      { "label": "Weight", "value": "1.8kg" }
+    ]
+  },
+  {
+    "id": "prod_004",
+    "name": "4K Smart TV 55-inch",
+    "slug": "4k-smart-tv-55-inch",
+    "description": "55-inch 4K UHD Smart TV with HDR and built-in streaming apps.",
+    "shortDescription": "4K HDR Smart TV.",
+    "media": {
+      "thumbnail": "https://i.pinimg.com/1200x/b2/6a/97/b26a970825929f5740da000f5db8adcb.jpg",
+      "images": [
+        { "url": "https://example.com/products/tv1.jpg", "alt": "TV front" }
+      ]
+    },
+    "pricing": { "price": 699.99, "salePrice": 649.99, "currency": "USD" },
+    "categorization": { "category": "Electronics", "subCategory": "Televisions" },
+    "inventory": { "sku": "TV55-4K", "stockQuantity": 42 },
+    "brand": { "name": "VisionPro" },
+    "logistics": { "returnPolicy": "30-day return policy" },
+    "engagement": { "rating": 4.6, "wishlistCount": 210 },
+    "meta": {
+      "createdAt": "2025-05-15T11:00:00Z",
+      "updatedAt": "2025-09-14T10:00:00Z",
+      "status": "active"
+    },
+    "specifications": [
+      { "label": "Display", "value": "1.9-inch AMOLED, Always-On" },
+      { "label": "Battery Life", "value": "7 days typical" },
+      { "label": "Sensors", "value": "Heart Rate, SpO2, GPS, Compass" },
+      { "label": "Water Resistance", "value": "Up to 50m" },
+      { "label": "Connectivity", "value": "Bluetooth 5.1, WiFi" },
+      { "label": "OS", "value": "ProWatchOS" },
+      { "label": "Compatibility", "value": "iOS & Android" },
+      { "label": "Weight", "value": "42g" }
+    ]
+  },
+  {
+    "id": "prod_005",
+    "name": "Smartwatch S5",
+    "slug": "smartwatch-s5",
+    "description": "Water-resistant smartwatch with heart rate monitor, GPS, and 7-day battery.",
+    "shortDescription": "Smartwatch with health tracking.",
+    "media": {
+      "thumbnail": "https://i.pinimg.com/736x/49/02/1e/49021e6189059ae2fd1ae8a1d8eb906b.jpg",
+      "images": [
+        { "url": "https://example.com/products/watch1.jpg", "alt": "Smartwatch display" }
+      ]
+    },
+    "pricing": { "price": 249.99, "currency": "USD" },
+    "categorization": { "category": "Electronics", "subCategory": "Wearables" },
+    "inventory": { "sku": "SW-S5", "stockQuantity": 75 },
+    "brand": { "name": "PulseTech" },
+    "logistics": { "returnPolicy": "14-day return policy" },
+    "engagement": { "rating": 4.3, "wishlistCount": 175 },
+    "meta": {
+      "createdAt": "2025-06-20T08:00:00Z",
+      "updatedAt": "2025-09-13T16:00:00Z",
+      "status": "active"
+    },
+    "specifications": [
+      { "label": "Drivers", "value": "11mm Dynamic" },
+      { "label": "Connectivity", "value": "Bluetooth 5.3" },
+      { "label": "Battery Life", "value": "6 hours + 18 hours with case" },
+      { "label": "Charging", "value": "USB-C & Wireless Charging" },
+      { "label": "Noise Cancellation", "value": "Active Noise Cancellation" },
+      { "label": "Weight", "value": "4.5g per earbud" },
+      { "label": "Water Resistance", "value": "IPX4" },
+      { "label": "Compatibility", "value": "iOS, Android" }
+    ]
+  },
+  {
+    "id": "prod_006",
+    "name": "Bluetooth Speaker",
+    "slug": "bluetooth-speaker",
+    "description": "Portable Bluetooth speaker with deep bass and 12-hour playtime.",
+    "shortDescription": "Portable Bluetooth speaker.",
+    "media": {
+      "thumbnail": "https://i.pinimg.com/736x/1f/05/22/1f0522096ebd233f31014e662fead582.jpg",
+      "images": [
+        { "url": "https://example.com/products/speaker1.jpg", "alt": "Bluetooth speaker" }
+      ]
+    },
+    "pricing": { "price": 99.99, "salePrice": 79.99, "currency": "USD" },
+    "categorization": { "category": "Electronics", "subCategory": "Audio" },
+    "inventory": { "sku": "BTS-222", "stockQuantity": 150 },
+    "brand": { "name": "BeatBox" },
+    "logistics": { "returnPolicy": "30-day return policy" },
+    "engagement": { "rating": 4.4, "wishlistCount": 300 },
+    "meta": {
+      "createdAt": "2025-05-18T11:00:00Z",
+      "updatedAt": "2025-09-16T13:00:00Z",
+      "status": "active"
+    },
+    "specifications": [
+      { "label": "Drivers", "value": "11mm Dynamic" },
+      { "label": "Connectivity", "value": "Bluetooth 5.3" },
+      { "label": "Battery Life", "value": "6 hours + 18 hours with case" },
+      { "label": "Charging", "value": "USB-C & Wireless Charging" },
+      { "label": "Noise Cancellation", "value": "Active Noise Cancellation" },
+      { "label": "Weight", "value": "4.5g per earbud" },
+      { "label": "Water Resistance", "value": "IPX4" },
+      { "label": "Compatibility", "value": "iOS, Android" }
+    ]
+  },
+  {
+    "id": "prod_007",
+    "name": "Gaming Mouse",
+    "slug": "gaming-mouse",
+    "description": "Ergonomic gaming mouse with customizable RGB lighting and 8 programmable buttons.",
+    "shortDescription": "RGB gaming mouse.",
+    "media": {
+      "thumbnail": "https://i.pinimg.com/736x/bb/31/c2/bb31c26fcffdf72b62c5895e96d42b7a.jpg",
+      "images": [
+        { "url": "https://example.com/products/mouse1.jpg", "alt": "Gaming mouse" }
+      ]
+    },
+    "pricing": { "price": 59.99, "currency": "USD" },
+    "categorization": { "category": "Electronics", "subCategory": "Gaming Accessories" },
+    "inventory": { "sku": "GM-888", "stockQuantity": 200 },
+    "brand": { "name": "ClickMaster" },
+    "logistics": { "returnPolicy": "14-day return policy" },
+    "engagement": { "rating": 4.6, "wishlistCount": 190 },
+    "meta": {
+      "createdAt": "2025-05-30T09:00:00Z",
+      "updatedAt": "2025-09-11T11:00:00Z",
+      "status": "active"
+    },
+    "specifications": [
+      { "label": "Processor", "value": "Custom 8-Core CPU @3.8GHz" },
+      { "label": "GPU", "value": "RDNA 2 Custom GPU, 12 TFLOPs" },
+      { "label": "RAM", "value": "16GB GDDR6" },
+      { "label": "Storage", "value": "1TB NVMe SSD" },
+      { "label": "Expandable Storage", "value": "Up to 2TB SSD" },
+      { "label": "Resolution Support", "value": "Up to 8K" },
+      { "label": "Frame Rate", "value": "Up to 120fps" },
+      { "label": "Connectivity", "value": "HDMI 2.1, WiFi 6, Bluetooth 5.2" },
+      { "label": "Weight", "value": "4.5kg" },
+      { "label": "Warranty", "value": "1 Year" }
+    ]
+
+  },
+  {
+    "id": "prod_008",
+    "name": "Mechanical Keyboard",
+    "slug": "mechanical-keyboard",
+    "description": "Mechanical keyboard with hot-swappable switches, RGB backlight, and aluminum frame.",
+    "shortDescription": "RGB mechanical keyboard.",
+    "media": {
+      "thumbnail": "https://i.pinimg.com/1200x/04/af/be/04afbee32f613a8765356f8ba6057a23.jpg",
+      "images": [
+        { "url": "https://example.com/products/keyboard1.jpg", "alt": "Mechanical keyboard" }
+      ]
+    },
+    "pricing": { "price": 129.99, "currency": "USD" },
+    "categorization": { "category": "Electronics", "subCategory": "Computer Accessories" },
+    "inventory": { "sku": "MK-101", "stockQuantity": 95 },
+    "brand": { "name": "KeyForge" },
+    "logistics": { "returnPolicy": "30-day return policy" },
+    "engagement": { "rating": 4.7, "wishlistCount": 250 },
+    "meta": {
+      "createdAt": "2025-04-25T10:00:00Z",
+      "updatedAt": "2025-09-12T09:00:00Z",
+      "status": "active"
+    },
+    "specifications": [
+      { "label": "Processor", "value": "Custom 8-Core CPU @3.8GHz" },
+      { "label": "GPU", "value": "RDNA 2 Custom GPU, 12 TFLOPs" },
+      { "label": "RAM", "value": "16GB GDDR6" },
+      { "label": "Storage", "value": "1TB NVMe SSD" },
+      { "label": "Expandable Storage", "value": "Up to 2TB SSD" },
+      { "label": "Resolution Support", "value": "Up to 8K" },
+      { "label": "Frame Rate", "value": "Up to 120fps" },
+      { "label": "Connectivity", "value": "HDMI 2.1, WiFi 6, Bluetooth 5.2" },
+      { "label": "Weight", "value": "4.5kg" },
+      { "label": "Warranty", "value": "1 Year" }
+    ]
+
+  },
+  {
+    "id": "prod_009",
+    "name": "DSLR Camera A7",
+    "slug": "dslr-camera-a7",
+    "description": "Professional DSLR camera with 24MP sensor, 4K video recording, and Wi-Fi connectivity.",
+    "shortDescription": "24MP DSLR camera.",
+    "media": {
+      "thumbnail": "https://i.pinimg.com/1200x/08/d0/fe/08d0fed8dd4302e0287c79283758956a.jpg",
+      "images": [
+        { "url": "https://example.com/products/camera1.jpg", "alt": "DSLR camera" }
+      ]
+    },
+    "pricing": { "price": 1299.99, "currency": "USD" },
+    "categorization": { "category": "Electronics", "subCategory": "Cameras" },
+    "inventory": { "sku": "DSLR-A7", "stockQuantity": 20 },
+    "brand": { "name": "PhotoPro" },
+    "logistics": { "returnPolicy": "14-day return policy" },
+    "engagement": { "rating": 4.8, "wishlistCount": 420 },
+    "meta": {
+      "createdAt": "2025-05-05T12:00:00Z",
+      "updatedAt": "2025-09-09T14:00:00Z",
+      "status": "active"
+    },
+    "specifications": [
+      { "label": "Sensor", "value": "24.2MP Full-Frame CMOS" },
+      { "label": "Image Processor", "value": "ProShot Engine X" },
+      { "label": "ISO Range", "value": "100–51200" },
+      { "label": "Video", "value": "4K UHD @60fps" },
+      { "label": "Autofocus", "value": "425-point Hybrid AF" },
+      { "label": "Screen", "value": "3-inch Tilting Touchscreen" },
+      { "label": "Storage", "value": "Dual SD Card Slots" },
+      { "label": "Connectivity", "value": "WiFi, Bluetooth, USB-C" },
+      { "label": "Weight", "value": "650g" },
+      { "label": "Warranty", "value": "2 Years" }
+    ]
+  },
+  {
+    "id": "prod_010",
+    "name": "Air Purifier",
+    "slug": "air-purifier",
+    "description": "HEPA air purifier suitable for rooms up to 500 sq. ft with quiet operation mode.",
+    "shortDescription": "HEPA filter air purifier.",
+    "media": {
+      "thumbnail": "https://i.pinimg.com/736x/65/9c/5c/659c5ca44fecdeeb190ca876111caca2.jpg",
+      "images": [
+        { "url": "https://example.com/products/airpurifier1.jpg", "alt": "Air purifier" }
+      ]
+    },
+    "pricing": { "price": 199.99, "salePrice": 179.99, "currency": "USD" },
+    "categorization": { "category": "Home Appliances", "subCategory": "Air Care" },
+    "inventory": { "sku": "AP-450", "stockQuantity": 60 },
+    "brand": { "name": "BreatheEasy" },
+    "logistics": { "returnPolicy": "30-day return policy" },
+    "engagement": { "rating": 4.5, "wishlistCount": 145 },
+    "meta": {
+      "createdAt": "2025-06-10T15:00:00Z",
+      "updatedAt": "2025-09-15T12:00:00Z",
+      "status": "active"
+    },
+    "specifications": [
+      { "label": "Sensor", "value": "24.2MP Full-Frame CMOS" },
+      { "label": "Image Processor", "value": "ProShot Engine X" },
+      { "label": "ISO Range", "value": "100–51200" },
+      { "label": "Video", "value": "4K UHD @60fps" },
+      { "label": "Autofocus", "value": "425-point Hybrid AF" },
+      { "label": "Screen", "value": "3-inch Tilting Touchscreen" },
+      { "label": "Storage", "value": "Dual SD Card Slots" },
+      { "label": "Connectivity", "value": "WiFi, Bluetooth, USB-C" },
+      { "label": "Weight", "value": "650g" },
+      { "label": "Warranty", "value": "2 Years" }
+    ]
+  },
+   {
+    "id": "prod_011",
+    "name": "Portable Bluetooth Speaker",
+    "slug": "portable-bluetooth-speaker",
+    "description": "Compact and waterproof Bluetooth speaker with rich bass and 12-hour battery life.",
+    "shortDescription": "Waterproof Bluetooth speaker.",
+    "media": {
+      "thumbnail": "https://i.pinimg.com/736x/1f/05/22/1f0522096ebd233f31014e662fead582.jpg",
+      "images": [
+        { "url": "https://example.com/products/speaker1.jpg", "alt": "Speaker front" },
+        { "url": "https://example.com/products/speaker2.jpg", "alt": "Speaker side" }
+      ]
+    },
+    "pricing": { "price": 89.99, "currency": "USD" },
+    "categorization": { "category": "Electronics", "subCategory": "Audio" },
+    "inventory": { "sku": "PBSPK-11", "stockQuantity": 140 },
+    "brand": { "name": "BeatBox" },
+    "logistics": { "returnPolicy": "30-day return policy" },
+    "engagement": { "rating": 4.4, "wishlistCount": 210 },
+    "meta": {
+      "createdAt": "2025-05-18T11:00:00Z",
+      "updatedAt": "2025-09-12T13:00:00Z",
+      "status": "active"
+    },
+     "specifications": [
+      { "label": "Connectivity", "value": "Bluetooth 5.2" },
+      { "label": "Battery Life", "value": "30 hours" },
+      { "label": "Charging Port", "value": "USB-C Fast Charging" },
+      { "label": "Driver Size", "value": "40mm" },
+      { "label": "Noise Cancellation", "value": "Active Noise Cancellation (ANC)" },
+      { "label": "Weight", "value": "250g" },
+      { "label": "Compatibility", "value": "iOS, Android, Windows" },
+      { "label": "Warranty", "value": "1 Year Manufacturer Warranty" }
+    ]
+  },
+  {
+    "id": "prod_012",
+    "name": "Smartwatch Series 6",
+    "slug": "smartwatch-series-6",
+    "description": "Advanced smartwatch with heart rate monitor, GPS, and customizable watch faces.",
+    "shortDescription": "Fitness and lifestyle smartwatch.",
+    "media": {
+      "thumbnail": "https://i.pinimg.com/736x/49/02/1e/49021e6189059ae2fd1ae8a1d8eb906b.jpg",
+      "images": [
+        { "url": "https://example.com/products/smartwatch1.jpg", "alt": "Smartwatch front" },
+        { "url": "https://example.com/products/smartwatch2.jpg", "alt": "Smartwatch straps" }
+      ]
+    },
+    "pricing": { "price": 349.99, "currency": "USD" },
+    "categorization": { "category": "Wearables", "subCategory": "Smartwatches" },
+    "inventory": { "sku": "SWTCH-6", "stockQuantity": 65 },
+    "brand": { "name": "TimeTek" },
+    "logistics": { "returnPolicy": "14-day return policy" },
+    "engagement": { "rating": 4.6, "wishlistCount": 430 },
+    "meta": {
+      "createdAt": "2025-04-25T10:00:00Z",
+      "updatedAt": "2025-09-16T15:00:00Z",
+      "status": "active"
+    },
+    "specifications": [
+      { "label": "Display", "value": "1.9-inch AMOLED, Always-On" },
+      { "label": "Battery Life", "value": "7 days typical" },
+      { "label": "Sensors", "value": "Heart Rate, SpO2, GPS, Compass" },
+      { "label": "Water Resistance", "value": "Up to 50m" },
+      { "label": "Connectivity", "value": "Bluetooth 5.1, WiFi" },
+      { "label": "OS", "value": "ProWatchOS" },
+      { "label": "Compatibility", "value": "iOS & Android" },
+      { "label": "Weight", "value": "42g" }
+    ]
+  },
+  {
+    "id": "prod_013",
+    "name": "DSLR Camera XT-500",
+    "slug": "dslr-camera-xt-500",
+    "description": "Professional DSLR camera with 24MP sensor, 4K video recording, and interchangeable lenses.",
+    "shortDescription": "24MP DSLR camera with 4K video.",
+    "media": {
+      "thumbnail": "https://i.pinimg.com/1200x/77/9f/e3/779fe3e23b6a32cb8d93369a4b9910af.jpg",
+      "images": [
+        { "url": "https://example.com/products/camera1.jpg", "alt": "Camera front" },
+        { "url": "https://example.com/products/camera2.jpg", "alt": "Camera with lens" }
+      ]
+    },
+    "pricing": { "price": 1299.99, "currency": "USD" },
+    "categorization": { "category": "Electronics", "subCategory": "Cameras" },
+    "inventory": { "sku": "XT500-DSLR", "stockQuantity": 25 },
+    "brand": { "name": "Photonix" },
+    "logistics": { "returnPolicy": "21-day return policy" },
+    "engagement": { "rating": 4.8, "wishlistCount": 600 },
+    "meta": {
+      "createdAt": "2025-05-05T12:00:00Z",
+      "updatedAt": "2025-09-18T09:00:00Z",
+      "status": "active"
+    },
+    "specifications": [
+      { "label": "Sensor", "value": "24.2MP Full-Frame CMOS" },
+      { "label": "Image Processor", "value": "ProShot Engine X" },
+      { "label": "ISO Range", "value": "100–51200" },
+      { "label": "Video", "value": "4K UHD @60fps" },
+      { "label": "Autofocus", "value": "425-point Hybrid AF" },
+      { "label": "Screen", "value": "3-inch Tilting Touchscreen" },
+      { "label": "Storage", "value": "Dual SD Card Slots" },
+      { "label": "Connectivity", "value": "WiFi, Bluetooth, USB-C" },
+      { "label": "Weight", "value": "650g" },
+      { "label": "Warranty", "value": "2 Years" }
+    ]
+  },
+  {
+    "id": "prod_014",
+    "name": "Gaming Console Z5",
+    "slug": "gaming-console-z5",
+    "description": "Next-gen gaming console with 8K support, ray tracing, and 1TB SSD storage.",
+    "shortDescription": "Powerful next-gen gaming console.",
+    "media": {
+      "thumbnail": "https://i.pinimg.com/1200x/6f/87/84/6f87846bcf3b7f225b9af211a5d54f10.jpg",
+      "images": [
+        { "url": "https://example.com/products/console1.jpg", "alt": "Console front" },
+        { "url": "https://example.com/products/console2.jpg", "alt": "Console controller" }
+      ]
+    },
+    "pricing": { "price": 599.99, "currency": "USD" },
+    "categorization": { "category": "Gaming", "subCategory": "Consoles" },
+    "inventory": { "sku": "GCON-Z5", "stockQuantity": 90 },
+    "brand": { "name": "GameVerse" },
+    "logistics": { "returnPolicy": "30-day return policy" },
+    "engagement": { "rating": 4.9, "wishlistCount": 1500 },
+    "meta": {
+      "createdAt": "2025-06-15T10:00:00Z",
+      "updatedAt": "2025-09-20T11:00:00Z",
+      "status": "active"
+    },
+    "specifications": [
+      { "label": "Processor", "value": "Custom 8-Core CPU @3.8GHz" },
+      { "label": "GPU", "value": "RDNA 2 Custom GPU, 12 TFLOPs" },
+      { "label": "RAM", "value": "16GB GDDR6" },
+      { "label": "Storage", "value": "1TB NVMe SSD" },
+      { "label": "Expandable Storage", "value": "Up to 2TB SSD" },
+      { "label": "Resolution Support", "value": "Up to 8K" },
+      { "label": "Frame Rate", "value": "Up to 120fps" },
+      { "label": "Connectivity", "value": "HDMI 2.1, WiFi 6, Bluetooth 5.2" },
+      { "label": "Weight", "value": "4.5kg" },
+      { "label": "Warranty", "value": "1 Year" }
+    ]
+  },
+  {
+    "id": "prod_015",
+    "name": "Mechanical Gaming Keyboard",
+    "slug": "mechanical-gaming-keyboard",
+    "description": "RGB backlit mechanical keyboard with customizable macros and blue switches.",
+    "shortDescription": "Mechanical keyboard with RGB lighting.",
+    "media": {
+      "thumbnail": "https://i.pinimg.com/1200x/04/af/be/04afbee32f613a8765356f8ba6057a23.jpg",
+      "images": [
+        { "url": "https://example.com/products/keyboard1.jpg", "alt": "Keyboard top view" },
+        { "url": "https://example.com/products/keyboard2.jpg", "alt": "Keyboard side profile" }
+      ]
+    },
+    "pricing": { "price": 129.99, "currency": "USD" },
+    "categorization": { "category": "Gaming", "subCategory": "Accessories" },
+    "inventory": { "sku": "KBM-GM-15", "stockQuantity": 170 },
+    "brand": { "name": "KeyForge" },
+    "logistics": { "returnPolicy": "15-day return policy" },
+    "engagement": { "rating": 4.6, "wishlistCount": 380 },
+    "meta": {
+      "createdAt": "2025-07-05T14:00:00Z",
+      "updatedAt": "2025-09-19T16:00:00Z",
+      "status": "active"
+    },
+    "specifications": [
+      { "label": "Switch Type", "value": "Hot-Swappable (Red, Blue, Brown options)" },
+      { "label": "Key Rollover", "value": "N-Key Rollover, Anti-Ghosting" },
+      { "label": "Backlight", "value": "Per-Key RGB" },
+      { "label": "Frame Material", "value": "Aluminum Alloy" },
+      { "label": "Connectivity", "value": "USB-C, Detachable Cable" },
+      { "label": "Layout", "value": "Full-Size, 104 Keys" },
+      { "label": "Software Support", "value": "Macro & RGB Customization" },
+      { "label": "Weight", "value": "980g" },
+      { "label": "Warranty", "value": "2 Years" }
+    ]
+  },
+   {
+    "id": "prod_016",
+    "name": "4K Smart TV 55-inch",
+    "slug": "4k-smart-tv-55-inch",
+    "description": "Ultra HD smart TV with HDR10+, built-in streaming apps, and voice control.",
+    "shortDescription": "55-inch 4K HDR smart TV.",
+    "media": {
+      "thumbnail": "https://i.pinimg.com/1200x/b2/6a/97/b26a970825929f5740da000f5db8adcb.jpg",
+      "images": [
+        { "url": "https://example.com/products/tv1.jpg", "alt": "TV front view" },
+        { "url": "https://example.com/products/tv2.jpg", "alt": "TV side view" }
+      ]
+    },
+    "pricing": { "price": 699.99, "currency": "USD" },
+    "categorization": { "category": "Electronics", "subCategory": "Televisions" },
+    "inventory": { "sku": "TV55-4K-SMRT", "stockQuantity": 60 },
+    "brand": { "name": "VisionTech" },
+    "logistics": { "returnPolicy": "30-day return policy" },
+    "engagement": { "rating": 4.7, "wishlistCount": 890 },
+    "meta": {
+      "createdAt": "2025-06-10T12:00:00Z",
+      "updatedAt": "2025-09-19T09:00:00Z",
+      "status": "active"
+    },
+    "specifications": [
+      { "label": "Display Size", "value": "65 inches" },
+      { "label": "Resolution", "value": "3840 x 2160 (4K UHD)" },
+      { "label": "HDR Support", "value": "HDR10+, Dolby Vision" },
+      { "label": "Refresh Rate", "value": "120Hz" },
+      { "label": "Smart OS", "value": "Google TV" },
+      { "label": "Connectivity", "value": "WiFi, Bluetooth 5.0" },
+      { "label": "Ports", "value": "4x HDMI, 2x USB, Ethernet" },
+      { "label": "Speakers", "value": "20W Dolby Atmos" },
+      { "label": "Weight", "value": "18kg" },
+      { "label": "Warranty", "value": "2 Years" }
+    ]
+  },
+  {
+    "id": "prod_017",
+    "name": "Robot Vacuum Cleaner",
+    "slug": "robot-vacuum-cleaner",
+    "description": "Smart robot vacuum with mapping, auto-charging, and voice assistant compatibility.",
+    "shortDescription": "AI-powered robot vacuum cleaner.",
+    "media": {
+      "thumbnail": "https://i.pinimg.com/736x/63/6d/87/636d8755414a887b3f25453526b0cee4.jpg",
+      "images": [
+        { "url": "https://example.com/products/robotvac1.jpg", "alt": "Robot vacuum top" },
+        { "url": "https://example.com/products/robotvac2.jpg", "alt": "Robot vacuum docked" }
+      ]
+    },
+    "pricing": { "price": 399.99, "currency": "USD" },
+    "categorization": { "category": "Home Appliances", "subCategory": "Cleaning" },
+    "inventory": { "sku": "RBVAC-500", "stockQuantity": 80 },
+    "brand": { "name": "CleanBot" },
+    "logistics": { "returnPolicy": "21-day return policy" },
+    "engagement": { "rating": 4.5, "wishlistCount": 410 },
+    "meta": {
+      "createdAt": "2025-05-30T11:00:00Z",
+      "updatedAt": "2025-09-15T08:00:00Z",
+      "status": "active"
+    },
+    "specifications": [
+      { "label": "Resolution", "value": "1920 x 1080 Full HD" },
+      { "label": "Brightness", "value": "500 ANSI Lumens" },
+      { "label": "Projection Size", "value": "40–300 inches" },
+      { "label": "Throw Ratio", "value": "1.4:1" },
+      { "label": "Speakers", "value": "Dual 5W Stereo" },
+      { "label": "Connectivity", "value": "HDMI, USB, WiFi, Bluetooth" },
+      { "label": "Lamp Life", "value": "30,000 Hours" },
+      { "label": "Weight", "value": "1.3kg" },
+      { "label": "Warranty", "value": "1 Year" }
+    ]
+  },
+  {
+    "id": "prod_018",
+    "name": "Air Fryer Pro 6L",
+    "slug": "air-fryer-pro-6l",
+    "description": "Large capacity air fryer with digital controls, 12 cooking presets, and rapid heat circulation.",
+    "shortDescription": "6L digital air fryer.",
+    "media": {
+      "thumbnail": "https://i.pinimg.com/1200x/a4/fa/b9/a4fab924b21bbaca69ed7e0552bd9454.jpg",
+      "images": [
+        { "url": "https://example.com/products/airfryer1.jpg", "alt": "Air fryer front" },
+        { "url": "https://example.com/products/airfryer2.jpg", "alt": "Air fryer open basket" }
+      ]
+    },
+    "pricing": { "price": 159.99, "currency": "USD" },
+    "categorization": { "category": "Home Appliances", "subCategory": "Kitchen" },
+    "inventory": { "sku": "AFPRO-6L", "stockQuantity": 100 },
+    "brand": { "name": "CookEase" },
+    "logistics": { "returnPolicy": "14-day return policy" },
+    "engagement": { "rating": 4.6, "wishlistCount": 290 },
+    "meta": {
+      "createdAt": "2025-04-15T09:00:00Z",
+      "updatedAt": "2025-09-14T17:00:00Z",
+      "status": "active"
+    },
+    "specifications": [
+      { "label": "Type", "value": "Automatic Espresso Machine" },
+      { "label": "Pressure Pump", "value": "15 Bar" },
+      { "label": "Water Tank", "value": "1.8 Liters" },
+      { "label": "Coffee Types", "value": "Espresso, Cappuccino, Latte" },
+      { "label": "Milk Frother", "value": "Built-in Steam Wand" },
+      { "label": "Control Panel", "value": "Touch + Programmable Presets" },
+      { "label": "Power", "value": "1450W" },
+      { "label": "Weight", "value": "8.5kg" },
+      { "label": "Warranty", "value": "2 Years" }
+    ]
+  },
+  {
+    "id": "prod_019",
+    "name": "Electric Kettle Glass 1.7L",
+    "slug": "electric-kettle-glass-1-7l",
+    "description": "Stylish glass kettle with LED light, auto shut-off, and boil-dry protection.",
+    "shortDescription": "1.7L glass electric kettle.",
+    "media": {
+      "thumbnail": "https://i.pinimg.com/1200x/71/99/1c/71991c95df6cc8b0bdde960208619d90.jpg",
+      "images": [
+        { "url": "https://example.com/products/kettle1.jpg", "alt": "Kettle side view" },
+        { "url": "https://example.com/products/kettle2.jpg", "alt": "Kettle with LED light" }
+      ]
+    },
+    "pricing": { "price": 49.99, "currency": "USD" },
+    "categorization": { "category": "Home Appliances", "subCategory": "Kitchen" },
+    "inventory": { "sku": "KETTLE-GLS-17", "stockQuantity": 200 },
+    "brand": { "name": "BoilSmart" },
+    "logistics": { "returnPolicy": "10-day return policy" },
+    "engagement": { "rating": 4.3, "wishlistCount": 150 },
+    "meta": {
+      "createdAt": "2025-06-20T08:00:00Z",
+      "updatedAt": "2025-09-13T18:00:00Z",
+      "status": "active"
+    },
+    "specifications": [
+      { "label": "Type", "value": "Automatic Espresso Machine" },
+      { "label": "Pressure Pump", "value": "15 Bar" },
+      { "label": "Water Tank", "value": "1.8 Liters" },
+      { "label": "Coffee Types", "value": "Espresso, Cappuccino, Latte" },
+      { "label": "Milk Frother", "value": "Built-in Steam Wand" },
+      { "label": "Control Panel", "value": "Touch + Programmable Presets" },
+      { "label": "Power", "value": "1450W" },
+      { "label": "Weight", "value": "8.5kg" },
+      { "label": "Warranty", "value": "2 Years" }
+    ]
+  },
+  {
+    "id": "prod_020",
+    "name": "Smart Air Purifier",
+    "slug": "smart-air-purifier",
+    "description": "HEPA air purifier with WiFi control, real-time air quality monitoring, and 4 fan speeds.",
+    "shortDescription": "Smart HEPA air purifier.",
+    "media": {
+      "thumbnail": "https://i.pinimg.com/736x/ef/22/e5/ef22e51573639d30508a3a1d2cbd819b.jpg",
+      "images": [
+        { "url": "https://example.com/products/airpurifier1.jpg", "alt": "Air purifier front" },
+        { "url": "https://example.com/products/airpurifier2.jpg", "alt": "Air purifier display" }
+      ]
+    },
+    "pricing": { "price": 229.99, "currency": "USD" },
+    "categorization": { "category": "Home Appliances", "subCategory": "Air Quality" },
+    "inventory": { "sku": "AIRP-500-SMRT", "stockQuantity": 75 },
+    "brand": { "name": "PureBreathe" },
+    "logistics": { "returnPolicy": "21-day return policy" },
+    "engagement": { "rating": 4.7, "wishlistCount": 340 },
+    "meta": {
+      "createdAt": "2025-05-12T07:00:00Z",
+      "updatedAt": "2025-09-17T15:00:00Z",
+      "status": "active"
+    },
+    "specifications": [
+      { "label": "Capacity", "value": "450 Liters" },
+      { "label": "Doors", "value": "Double Door (French Style)" },
+      { "label": "Energy Rating", "value": "A++" },
+      { "label": "Smart Features", "value": "Touch Display, WiFi Control, App Monitoring" },
+      { "label": "Cooling System", "value": "Frost-Free" },
+      { "label": "Water & Ice Dispenser", "value": "Yes" },
+      { "label": "Dimensions", "value": "1780 x 910 x 720mm" },
+      { "label": "Weight", "value": "92kg" },
+      { "label": "Warranty", "value": "2 Years" }
+    ]
+  }
+],
+
+  "category": [
+  {
+    "id": 1,
+    "image": "./src/assets/jbl.jpg",
+    "text": "Music comes alive with JBL"
+  },
+  {
+    "id": 2,
+    "image": "./src/assets/mac.jpg",
+    "text": "Mac touch and feels like heaven"
+  },
+  {
+    "id": 3,
+    "image": "./src/assets/iphone.jpg",
+    "text": "Explore the world with an iphone from our store"
+  },
+  {
+    "id": 4,
+    "image": "./src/assets/Airpodpro.jpg",
+    "text": "Noise cancellation at it's peak"
+  },
+  {
+    "id": 5,
+    "image": "",
+    "text": "Jewellry for high classy people"
+  },
+  {
+    "id": 6,
+    "image": "",
+    "text": "Quality electronics to view the world from a classy perspective"
+  },
+  {
+    "id": 7,
+    "image": "",
+    "text": ""
+  }
+], 
+
+  "blog": [
+    {
+      "id": 1,
+      "category": "Growth",
+      "image": "https://i.pinimg.com/1200x/d2/10/f0/d210f01f46651d5558babd20f30816a2.jpg",
+      "title": "Your Ultimate Guide to Money and School Life",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, officiis!"
+    },
+    {
+      "id": 2,
+      "category": "Finance",
+      "image": "https://i.pinimg.com/736x/e8/63/bc/e863bce9b408cc14bac739c923fa6936.jpg",
+      "title": "Budgeting 101:Survival skills as a student",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, officiis!"
+    },
+    {
+      "id": 3,
+      "category": "Finance",
+      "image": "https://i.pinimg.com/736x/bc/31/7a/bc317a3ef27877360bf2d4baa44854d1.jpg",
+      "title": "From first class to financial freedom",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, officiis!"
+    },
+    {
+      "id": 4,
+      "category": "Growth",
+      "image": "https://i.pinimg.com/736x/ad/b6/b1/adb6b1ac33db4128a7b1771c8bb08bbd.jpg",
+      "title": "One smart move can change your future",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, officiis!"
+    },
+    {
+      "id": 5,
+      "category": "Education",
+      "image": "https://i.pinimg.com/1200x/5a/e8/87/5ae887f6f6b6bd5037a0926e9922d19a.jpg",
+      "title": "Own your money game as a student",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, officiis!"
+    },
+    {
+      "id": 6,
+      "category": "Support",
+      "image": "https://i.pinimg.com/736x/33/26/03/33260380657622fe72de85eaff8af948.jpg",
+      "title": "Get family and friends to support your business",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, officiis!"
+    }
+  ]
+}
