@@ -21,7 +21,9 @@ const Blog = () => {
 
     return(
         <section className="pt-8 px-4 sm:px-6 lg:px-32 max-w-screen-xl mx-auto">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <p className="text-center text-3xl font-semibold">Blog</p>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
                     {
                         blog.map(each => (                     
                             <div key={each.id} className="w-auto relative">

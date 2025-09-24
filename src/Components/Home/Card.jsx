@@ -9,7 +9,7 @@ const Card = ({ item }) => {
             <div className="rounded-2xl relative flex flex-col">
             <div className="absolute py-1.5 px-2.5 bg-white rounded-3xl text-xs right-3 top-3 outline-1 outline-gray-300">{item.categorization.category}</div>
             <div className="h-56 bg-[#d6d6d6] rounded-2xl"><img className="w-full h-full object-cover rounded-2xl " src={item.media.thumbnail} alt="" /></div>
-            <p className="my-3 text-xl">{item.name}</p>
+            <p className="my-3 text-xl font-medium">{item.name}</p>
             <div className="flex justify-between items-center mb-4">
                 <p className="flex items-center gap-1 text-[#5d5d5d] text-[13px]"><FaStar color="orange" /> <span>{item.engagement.rating}(1.2k reviews)</span></p>
                 <p className="text-xl" style={{fontWeight: 'bold'}}>${price}</p>

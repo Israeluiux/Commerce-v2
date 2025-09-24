@@ -2,10 +2,11 @@ import { useState } from "react"
 import { FaSearch } from "react-icons/fa"
 import { FaCartShopping, FaX } from "react-icons/fa6"
 import { BiMenu } from "react-icons/bi"
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false)
+    const navigate = useNavigate()
 
 
     return(
@@ -19,8 +20,8 @@ const Navbar = () => {
                         <li><Link to='/blog' className="px-4 py-2.5 rounded-2xl hover:bg-gray-300">Blog</Link></li>
                     </ul>
                     <div className="hidden md:flex items-center gap-2">
-                        <span className=" outline p-3 rounded-4xl cursor-pointer outline-gray-400 hover:bg-gray-200"><FaSearch /></span>
-                        <span className=" outline p-3 rounded-4xl cursor-pointer outline-gray-400 hover:bg-gray-200"><FaCartShopping /></span>
+                        <span className="outline p-3 rounded-4xl cursor-pointer outline-gray-400 hover:bg-gray-200"><FaSearch /></span>
+                        <span onClick={() => navigate('/cart')} className="outline p-3 rounded-4xl cursor-pointer outline-gray-400 hover:bg-gray-200"><FaCartShopping /></span>
                         <Link className="px-4 py-3 text-white bg-black rounded-3xl hover:bg-gray-600">Sign up</Link>
                     </div>
 
@@ -34,7 +35,7 @@ const Navbar = () => {
 
                                 <div className="flex gap-2 mt-2">
                                     <span className="outline p-3 rounded-xl cursor-pointer hover:bg-gray-200"><FaSearch /></span>
-                                    <span className="outline p-3 rounded-xl cursor-pointer hover:bg-gray-200"><FaCartShopping /></span>
+                                    <span onClick={() => {navigate('/cart'), setIsOpen(false)}} className="outline p-3 rounded-xl cursor-pointer hover:bg-gray-200"><FaCartShopping /></span>
                                 </div>
                                 <Link className="px-4 py-3 text-white bg-black rounded-2xl hover:bg-gray-600 text-center">Sign up</Link>
                             </div>

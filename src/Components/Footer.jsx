@@ -1,4 +1,5 @@
 import { FaFacebook, FaFacebookF, FaInstagram, FaLinkedin, FaTwitter, FaX } from "react-icons/fa6"
+import { Link } from "react-router-dom"
 
 const Footer = () => {
     return(
@@ -9,18 +10,18 @@ const Footer = () => {
                 <div>
                     <p className="text-2xl mb-6 font-bold">About</p>
                     <ul>
-                        <li className="text-[#525252] mb-2">Blog</li>
-                        <li className="text-[#525252] mb-2">Meet the team</li>
-                        <li className="text-[#525252] mb-2">Contact us</li>
+                        <li className="text-[#525252] mb-2"><Link>Blog</Link></li>
+                        <li className="text-[#525252] mb-2"><Link>Meet the team</Link></li>
+                        <li className="text-[#525252] mb-2"><Link>Contact us</Link></li>
                     </ul>
                 </div>
                 <div>
                     <p className="text-2xl mb-6 font-bold">Support</p>
                     <ul>
-                        <li className="text-[#525252] mb-2">Contact us</li>
-                        <li className="text-[#525252] mb-2">Shopping</li>
-                        <li className="text-[#525252] mb-2">Return</li>
-                        <li className="text-[#525252] mb-2">FAQ</li>
+                        <li className="text-[#525252] mb-2"><Link>Contact us</Link></li>
+                        <li className="text-[#525252] mb-2"><Link>Shopping</Link></li>
+                        <li className="text-[#525252] mb-2"><Link>Return</Link></li>
+                        <li className="text-[#525252] mb-2"><Link>FAQ</Link></li>
                     </ul>
                 </div>
             </div>
@@ -39,8 +40,8 @@ const Footer = () => {
             <div className="flex-col gap-8 md:flex-row flex justify-between py-6 ">
                 <p className="text-[#333]">Copyright &copy;2025 Balogun. All Right Reserved</p>
                 <div className="flex gap-8">
-                    <p className="text-[#333]">Term of service</p>
-                    <p className="text-[#333]">Policy Privacy</p>
+                    <p className="text-[#333]"><Link>Term of service</Link></p>
+                    <p className="text-[#333]"><Link>Policy Privacy</Link></p>
                 </div>
             </div>
         </section>

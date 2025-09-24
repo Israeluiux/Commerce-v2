@@ -1,6 +1,8 @@
-import { useEffect, useState } from "react"
+import { useContext, useEffect, useState } from "react"
 import { FaBasketShopping, FaHeart, FaMinus, FaPlus, FaStar, FaTruck } from "react-icons/fa6"
 import { useParams } from "react-router-dom"
+import Description from "./SingleCard/Description"
+import Reviews from "./SingleCard/Reviews"
 
 const SingleProductCard = () => {
     const { id } = useParams()
@@ -9,15 +11,23 @@ const SingleProductCard = () => {
     const [userReview, setUserReview] = useState([])
     const [loading, setLoading] = useState(true)
     const [count, setCount] = useState(1)
+    const [current, setCurrent] = useState("Description")
     
+    const rendertabs = {
+        Description: <Description />,
+        Reviews: <Reviews review={review} userReview={userReview} />,
+        Ratings: "No ratings found"
+    }
+
+
     useEffect(() => {
         const fetchdata = async () => {
             try {
                 const response = await fetch(`http://localhost:7000/items/${id}`)
                 const data = await response.json()
+                setItem(data)
                 console.log(data)
                 setLoading(false)
-                setItem(data)
                 const result = data.engagement.reviews
                 setReview(result.length)
                 setUserReview(result)
@@ -38,10 +48,16 @@ const SingleProductCard = () => {
         setCount(current + 1)
     }
 
+    const AddCart = () => {
+        localStorage.setItem("Cart Details", JSON.stringify(item) )
+    }
+
+
+
     if(loading === true){
         return(
             <>
-                Loading
+                Loading....
             </>
         )
     } else {
@@ -70,8 +86,8 @@ const SingleProductCard = () => {
                             <p className="mb-1.5">Color</p>
                             <div className="color-img flex gap-2">
                                 {
-                                item.media.images.map((each) => (
-                                    <div className="w-12 h-15 outline outline-gray-400 bg-[#d6d6d6] rounded-[8px]"><img className="w-full h-full object-cover rounded-[8px]" src={each} alt="" /></div>
+                                item.media.images.map((each, index) => (
+                                    <div key={index} className="w-12 h-15 outline outline-gray-400 bg-[#d6d6d6] rounded-[8px]"><img className="w-full h-full object-cover rounded-[8px]" src={each} alt="" /></div>
                                 ))
                                 }
                             </div>
@@ -90,7 +106,7 @@ const SingleProductCard = () => {
                         </div>
                         {/* CTOS */}
                         <div className="flex gap-2">
-                            <button className="p-4 w-full justify-center flex items-center gap-2.5 cursor-pointer rounded-2xl bg-black text-white"><FaBasketShopping size={20} /> <span className="">Add to cart</span></button>
+                            <button onClick={AddCart} className="p-4 w-full justify-center flex items-center gap-2.5 cursor-pointer rounded-2xl bg-black text-white"><FaBasketShopping size={20} /> <span>Add to cart</span></button>
                             <button className="p-4 px-5 cursor-pointer rounded-2xl bg-[#d6d6d6] text-white"><FaHeart size={20} /></button>
                         </div>
                         <p className="mt-3 flex items-center gap-2 text-sm"><FaTruck /> <span>Free delivery on orders over $300</span></p>
@@ -98,35 +114,13 @@ const SingleProductCard = () => {
                 </div>
                 {/* Bottom category */}
                 <div className="pt-12">
-                    <div>
-                        <h1 className="text-2xl mb-4">Product Description</h1>
-                        <p className="mb-4">{item.description}</p>
-                        <h1 className="text-2xl">Specifications</h1>
-                        <ol className="mt-4 space-y-2 list-decimal list-inside">
-                            {
-                                item.specifications.map((list, index) => (                   
-                                    <li><strong>{list.label}:</strong> {list.value}</li>
-                                ))
-                            }
-                        </ol>
+                    <div className="flex gap-1.5 mb-8">
+                        <button onClick={() => setCurrent("Description")} className={`p-3 cursor-pointer ${current === "Description"  ? 'border-b-2' : 'text-black/30'} `}>Description</button>
+                        <button onClick={() => setCurrent("Reviews")} className={`p-3 cursor-pointer ${current === "Reviews"  ? 'border-b-2' : 'text-black/30'} `}>Reviews</button>
+                        <button onClick={() => setCurrent("Ratings")} className={`p-3 cursor-pointer ${current === "Ratings"  ? 'border-b-2' : 'text-black/30'} `}>Ratings</button>
                     </div>
-                    <div className="mt-4">
-                        <h1 className="text-2xl mb-4">Reviews({review})</h1>
-                        {
-                            userReview.map(user => (
-                                <div className="w-3/5 mb-4">
-                                <div className="flex items-center gap-2 mb-3">
-                                    <div className="w-10 h-10 bg-[#d6d6d6] rounded-3xl"><img src="" alt="" /></div>
-                                    <div>
-                                        <p className="font-bold text-xl">{user.userid}</p>
-                                        <p className="text-[14px] text-[#9b9b9b]">{user.createdAt}</p>
-                                    </div>
-                                </div>
-                                <p>{user.comment}</p>
-                                </div>
-                            ))
-                        }
-                    </div>
+
+                    {rendertabs[current]}
                 </div>
             </section>
         )
