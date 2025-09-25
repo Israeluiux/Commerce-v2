@@ -2,6 +2,7 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
+import CTO from './Components/Home/CTO';
 import Home from './pages/Home'
 import SingleProduct from './pages/SingleProduct';
 import ScrollToTop from './Components/Scroll';
@@ -23,6 +24,7 @@ function App() {
           <Route path="blog" element={<Blog />} />
           <Route path="cart" element={<Cart />} />
         </Routes>
+        <CTO />
       <Footer />
     </div>
   );

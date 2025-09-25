@@ -3,6 +3,8 @@ import { FaBasketShopping, FaHeart, FaMinus, FaPlus, FaStar, FaTruck } from "rea
 import { useParams } from "react-router-dom"
 import Description from "./SingleCard/Description"
 import Reviews from "./SingleCard/Reviews"
+import { addToCart, increment, decrement } from "../CartSlice"
+import { useDispatch, useSelector } from "react-redux"
 
 const SingleProductCard = () => {
     const { id } = useParams()
@@ -12,6 +14,8 @@ const SingleProductCard = () => {
     const [loading, setLoading] = useState(true)
     const [count, setCount] = useState(1)
     const [current, setCurrent] = useState("Description")
+    const dispatch = useDispatch()
+    const items = useSelector(state => state.cart.item)
     
     const rendertabs = {
         Description: <Description />,
@@ -38,22 +42,22 @@ const SingleProductCard = () => {
         fetchdata()
     }, [id])
 
-    const decrease = () => {
-        const current = count
-        count < 2 ? setCount(1) : setCount(current - 1)
-    }
+    // const decrease = () => {
+    //     const current = count
+    //     count < 2 ? setCount(1) : setCount(current - 1)
+    // }
 
-    const increase = () => {
-        const current = count
-        setCount(current + 1)
-    }
+    // const increase = () => {
+    //     const current = count
+    //     setCount(current + 1)
+    // }
 
-    const AddCart = () => {
-        localStorage.setItem("Cart Details", JSON.stringify(item) )
-    }
+    // // const AddCart = () => {
+    // //     localStorage.setItem("Cart Details", JSON.stringify(item) )
+    // // }
 
 
-
+    // appears if data is yet to come
     if(loading === true){
         return(
             <>
@@ -62,6 +66,7 @@ const SingleProductCard = () => {
         )
     } else {
         
+        // runs as soon as data comes in
         return(
             <section>
                 {/* Top section - product details */}
@@ -99,14 +104,14 @@ const SingleProductCard = () => {
                         <div className="size my-6">
                             <p className="mb-2"></p>
                             <div className="buttons flex gap-4 items-center">
-                                <button onClick={decrease} className="p-4 bg-black text-white rounded-3xl cursor-pointer"><FaMinus /> </button>
+                                <button onClick={() => dispatch(decrement(items.id))} className="p-4 bg-black text-white rounded-3xl cursor-pointer"><FaMinus /> </button>
                                 <p className="text-3xl font-bold">{count}</p>
-                                <button onClick={increase} className="p-4 bg-black text-white rounded-3xl cursor-pointer"><FaPlus /> </button>
+                                <button onClick={() => dispatch(increment(items.id))} className="p-4 bg-black text-white rounded-3xl cursor-pointer"><FaPlus /> </button>
                             </div>
                         </div>
                         {/* CTOS */}
                         <div className="flex gap-2">
-                            <button onClick={AddCart} className="p-4 w-full justify-center flex items-center gap-2.5 cursor-pointer rounded-2xl bg-black text-white"><FaBasketShopping size={20} /> <span>Add to cart</span></button>
+                            <button onClick={() => dispatch(addToCart(item))} className="p-4 w-full justify-center flex items-center gap-2.5 cursor-pointer rounded-2xl bg-black text-white"><FaBasketShopping size={20} /> <span>Add to cart</span></button>
                             <button className="p-4 px-5 cursor-pointer rounded-2xl bg-[#d6d6d6] text-white"><FaHeart size={20} /></button>
                         </div>
                         <p className="mt-3 flex items-center gap-2 text-sm"><FaTruck /> <span>Free delivery on orders over $300</span></p>

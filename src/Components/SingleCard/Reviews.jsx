@@ -3,6 +3,7 @@ const Reviews = ({ review, userReview }) => {
         <>
             <div className="mt-4">
                 <h1 className="text-2xl mb-4">Reviews({review})</h1>
+                { review === 0 ? <div>No reviews avaiable</div> : '' }
                 {
                     userReview.map(user => (
                         <div className="w-3/5 mb-4">

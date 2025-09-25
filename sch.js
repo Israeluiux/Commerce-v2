@@ -73,11 +73,11 @@ const items = [
       "price": "90.00"
     }
   ]
-  // // [
-  //     {"userid": "user_555", "comment": "Great product, very good quality", "createdAt": "2025-05-15T12:00:00Z"},
-  //     {"userid": "user_500", "comment": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quod modi id quidem voluptatum rem at eius ullam, qui necessitatibus!", "createdAt": "2025-05-15T12:00:00Z"},
-  //     {"userid": "user_329", "comment": "Great product, very good quality", "createdAt": "2025-05-15T12:00:00Z"}
-  //     ]
+      [
+      {"userid": "user_555", "comment": "Great product, very good quality", "createdAt": "2025-05-15T12:00:00Z"},
+      {"userid": "user_500", "comment": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quod modi id quidem voluptatum rem at eius ullam, qui necessitatibus!", "createdAt": "2025-05-15T12:00:00Z"},
+      {"userid": "user_329", "comment": "Great product, very good quality", "createdAt": "2025-05-15T12:00:00Z"}
+      ]
 
 import ''
 import ''

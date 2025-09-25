@@ -18,7 +18,11 @@
     "inventory": { "sku": "WH-1234", "stockQuantity": 120 },
     "brand": { "name": "SoundMax" },
     "logistics": { "returnPolicy": "30-day return policy" },
-    "engagement": { "rating": 4.5, "wishlistCount": 340 },
+    "engagement": { "rating": 4.5, "wishlistCount": 340 , "reviews": [
+      {"userid": "user_555", "comment": "Great product, very good quality", "createdAt": "2025-05-15T12:00:00Z"},
+      {"userid": "user_500", "comment": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quod modi id quidem voluptatum rem at eius ullam, qui necessitatibus!", "createdAt": "2025-05-15T12:00:00Z"},
+      {"userid": "user_329", "comment": "Great product, very good quality", "createdAt": "2025-05-15T12:00:00Z"}
+      ]},
     "meta": {
       "createdAt": "2025-05-10T10:00:00Z",
       "updatedAt": "2025-09-15T15:00:00Z",

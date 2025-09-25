@@ -33,7 +33,6 @@ const SingleProduct = () => {
                     }
                 </div>
             </section>
-            <CTO small='px-0' size='px-0' />
         </section>
     )
 }
