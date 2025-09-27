@@ -25,7 +25,7 @@ const SingleProduct = () => {
             <SingleProductCard />
             <section className="pt-12">
                 <p className="text-4xl">Suggested for you</p>
-                <div className="grid  my-12 gap-8" style={{gridTemplateColumns: 'repeat(auto-fit, minmax(14rem, 1fr))'}}>
+                <div className="grid my-12 gap-8" style={{gridTemplateColumns: 'repeat(auto-fit, minmax(14rem, 1fr))'}}>
                     {
                         item.map(each => (
                             <Card key={each.id} item={each} />

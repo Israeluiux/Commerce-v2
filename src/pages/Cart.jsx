@@ -16,7 +16,7 @@ const Cart = () => {
             <h2 className="font-bold text-2xl">Cart</h2>
             <div className="flex gap-4">
                 {/* Cart Details */}
-                <div className="outline outline-black/10 p-3 mt-6 rounded-xl flex flex-col gap-6 w-[70%] h-fit">
+                <div className=" mt-6 rounded-xl flex flex-col gap-3 w-[70%] h-fit">
                     <CartDetail />
                 </div>
                 {/* Checkout */}

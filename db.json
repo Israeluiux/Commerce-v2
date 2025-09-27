@@ -14,7 +14,7 @@
       ]
     },
     "pricing": { "price": 199.99, "salePrice": 149.99, "currency": "USD" },
-    "categorization": { "category": "Electronics", "subCategory": "Audio" },
+    "categorization": { "category": "Headset", "subCategory": "Audio" },
     "inventory": { "sku": "WH-1234", "stockQuantity": 120 },
     "brand": { "name": "SoundMax" },
     "logistics": { "returnPolicy": "30-day return policy" },
@@ -54,7 +54,7 @@
       ]
     },
     "pricing": { "price": 899.99, "currency": "USD" },
-    "categorization": { "category": "Electronics", "subCategory": "Mobile Phones" },
+    "categorization": { "category": "Phones", "subCategory": "Mobile Phones" },
     "inventory": { "sku": "SPX200-BLK", "stockQuantity": 50 },
     "brand": { "name": "TechOne" },
     "logistics": { "returnPolicy": "14-day return policy" },
@@ -91,7 +91,7 @@
       ]
     },
     "pricing": { "price": 1999.99, "currency": "USD" },
-    "categorization": { "category": "Electronics", "subCategory": "Laptops" },
+    "categorization": { "category": "Laptops", "subCategory": "Laptops" },
     "inventory": { "sku": "LP15-M2", "stockQuantity": 35 },
     "brand": { "name": "NextGen" },
     "logistics": { "returnPolicy": "21-day return policy" },
@@ -195,7 +195,7 @@
       ]
     },
     "pricing": { "price": 99.99, "salePrice": 79.99, "currency": "USD" },
-    "categorization": { "category": "Electronics", "subCategory": "Audio" },
+    "categorization": { "category": "Speaker", "subCategory": "Audio" },
     "inventory": { "sku": "BTS-222", "stockQuantity": 150 },
     "brand": { "name": "BeatBox" },
     "logistics": { "returnPolicy": "30-day return policy" },
@@ -376,7 +376,7 @@
       ]
     },
     "pricing": { "price": 89.99, "currency": "USD" },
-    "categorization": { "category": "Electronics", "subCategory": "Audio" },
+    "categorization": { "category": "Speaker", "subCategory": "Audio" },
     "inventory": { "sku": "PBSPK-11", "stockQuantity": 140 },
     "brand": { "name": "BeatBox" },
     "logistics": { "returnPolicy": "30-day return policy" },
@@ -728,36 +728,49 @@
   "category": [
   {
     "id": 1,
+    "category": "Apple",
     "image": "./src/assets/jbl.jpg",
     "text": "Music comes alive with JBL"
   },
   {
     "id": 2,
+    "category": "Samsung",
     "image": "./src/assets/mac.jpg",
     "text": "Mac touch and feels like heaven"
   },
   {
     "id": 3,
+    "category": "Hisense",
     "image": "./src/assets/iphone.jpg",
     "text": "Explore the world with an iphone from our store"
   },
   {
     "id": 4,
+    "category": "LG",
     "image": "./src/assets/Airpodpro.jpg",
     "text": "Noise cancellation at it's peak"
   },
   {
     "id": 5,
     "image": "",
+    "category": "Panasonic",
     "text": "Jewellry for high classy people"
   },
   {
     "id": 6,
     "image": "",
+    "category": "Adidas",
     "text": "Quality electronics to view the world from a classy perspective"
   },
   {
     "id": 7,
+    "category": "Wearables",
+    "image": "",
+    "text": ""
+  },
+  {
+    "id": 8,
+    "category": "Gaming",
     "image": "",
     "text": ""
   }

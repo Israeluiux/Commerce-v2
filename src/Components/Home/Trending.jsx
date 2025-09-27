@@ -9,7 +9,7 @@ const Trending = () => {
             try {
                 const response = await fetch('http://localhost:7000/category')
                 const data = await response.json()
-                setCategory(data.slice(0, 4))
+                setCategory(data.slice(0, 6))
             } catch (error) {
                 console.error(error)
             }
@@ -19,12 +19,17 @@ const Trending = () => {
     
 
     return(
-            <section className="px-3 sm:px-6 lg:px-32 py-8 max-w-screen-xl m-auto">
-                <p className="text-3xl mb-8">Explore Trending Categories</p>
-                <div className=" grid gap-4" style={{gridTemplateColumns: 'repeat(auto-fit, minmax(23rem, 1fr))'}}>
+            <section className="px-3 sm:px-6 lg:px-32 pt-12 max-w-screen-xl m-auto">
+                <div className='flex gap-4'>
                     {
                         category.map(each => (
-                            <TrendCard img={each.image} text={each.text} key={each.id} />
+                            <div className='flex flex-col gap-2'>
+                                <div className='w-40 h-30 bg-[#f5f5f5] rounded-[8px]'><img className='w-full h-full object-cover rounded-[8px]' src={each.image} alt="" /></div>
+                                <div>
+                                    <p className='font-semibold text-black/70'>{each.category}</p>
+                                    <p className='text-black/60'>126 products</p>
+                                </div>
+                            </div>
                         ))
                     }
                 </div>
@@ -33,3 +38,11 @@ const Trending = () => {
 }
 
 export default Trending
+{/* <p className="text-3xl mb-8">Explore Trending Categories</p>
+<div className=" grid gap-4" style={{gridTemplateColumns: 'repeat(auto-fit, minmax(23rem, 1fr))'}}>
+    {
+        category.map(each => (
+            <TrendCard img={each.image} text={each.text} key={each.id} category={each.category} />
+        ))
+    }
+</div> */}

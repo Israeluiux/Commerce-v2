@@ -6,13 +6,14 @@ import { increment, decrement, clearcart, removeCart } from "../CartSlice"
 const CartDetail = () => {
     const cart = useSelector(state => state.cart.item)
     const dispatch = useDispatch()
-
+    
 
     return(
         <>
+            { cart.length === 0 && <div>No item in cart</div> }
             {
                 cart.map((cart) => (
-                    <div className="flex justify-between items-center">
+                    <div className="flex justify-between items-center bg-[#f5f5f5] p-2 rounded-xl">
                         {/* Left section of the cart details */}
                         <div className="flex gap-3 items-center">
                             <div className="w-25 h-20 bg-[#f5f5f5] rounded-[5px]"><img className="w-full h-full object-cover rounded-[5px]" src={cart.media.thumbnail} alt="" /></div>

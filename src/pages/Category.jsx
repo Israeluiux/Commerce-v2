@@ -24,7 +24,7 @@ const Category = () => {
             <div className="grid gap-4" style={{gridTemplateColumns: 'repeat(auto-fit, minmax(23rem, 1fr))'}}>
                     {
                         category.map(each => (
-                            <TrendCard img={each.image} text={each.text} key={each.id} />
+                            <TrendCard img={each.image} text={each.text} key={each.id} category={each.category} />
                         ))
                     }
             </div>

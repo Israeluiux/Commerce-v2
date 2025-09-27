@@ -8,9 +8,10 @@ const Home = () => {
   return (
     <div className="relative">
       <Hero />
-      <Product />
-      {/* <Recommend /> */}
       <Trending />
+      <Product />
+
+      {/* <Recommend /> */}
     </div>
   );
 };
