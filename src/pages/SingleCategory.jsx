@@ -6,11 +6,12 @@ import Card from "../Components/Home/Card"
 const SingleCategory = () => {
     const [newCategory, setNewCategory] = useState([])
     const { category } = useParams()
+    const API_URL = import.meta.env.VITE_API_URL
 
     useEffect(() => {
         const fetchdata = async () => {
             try {
-                const response = await fetch(`https://commerce-ow7c.onrender.com/items`)
+                const response = await fetch(`${API_URL}/items`)
                 const data = await response.json()
                 const checkCategory = data.filter(item => item.categorization.category === category)
                 setNewCategory(checkCategory)

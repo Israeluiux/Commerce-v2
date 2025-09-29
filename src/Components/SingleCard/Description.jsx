@@ -5,11 +5,12 @@ const Description = () => {
     const { id } = useParams()
     const [loading, setLoading] = useState(true)
     const [item, setItem] = useState([])
+    const API_URL = import.meta.env.VITE_API_URL
 
     useEffect(() => {
         const fetchdata = async () => {
             try {
-                const response = await fetch(`https://commerce-ow7c.onrender.com/items/${id}`)
+                const response = await fetch(`${API_URL}/items/${id}`)
                 const data = await response.json()
                 setItem(data)
                 setLoading(false)

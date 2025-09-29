@@ -4,11 +4,12 @@ import { FaFilter, FaSearch } from "react-icons/fa"
 
 const AllProduct = () => {
     const [item, setItems] = useState([])
+    const API_URL = import.meta.env.VITE_API_URL
 
     useEffect(() => {
         const fetchdata = async () => {
             try {
-                const response = await fetch('https://commerce-ow7c.onrender.com/items')
+                const response = await fetch(`${API_URL}/items`)
                 const data = await response.json()
                 setItems(data)
             } catch (error) {

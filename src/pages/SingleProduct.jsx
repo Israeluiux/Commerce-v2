@@ -6,11 +6,12 @@ import CTO from "../Components/Home/CTO"
 
 const SingleProduct = () => {
     const [item, setItem] = useState([])
+    const API_URL = import.meta.env.VITE_API_URL
 
     useEffect(() => {
         const fetchdata =  async() => {
             try {
-                const response = await fetch('https://commerce-ow7c.onrender.com/items')
+                const response = await fetch(`${API_URL}/items`)
                 const data = await response.json()
                 setItem(data.slice(0, 9))
             } catch (error) {

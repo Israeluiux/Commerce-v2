@@ -16,6 +16,7 @@ const SingleProductCard = () => {
     const [current, setCurrent] = useState("Description")
     const dispatch = useDispatch()
     const items = useSelector(state => state.cart.item)
+    const API_URL = import.meta.env.VITE_API_URL
     
     const rendertabs = {
         Description: <Description />,
@@ -27,7 +28,7 @@ const SingleProductCard = () => {
     useEffect(() => {
         const fetchdata = async () => {
             try {
-                const response = await fetch(`https://commerce-ow7c.onrender.com/items/${id}`)
+                const response = await fetch(`${API_URL}/items/${id}`)
                 const data = await response.json()
                 setItem(data)
                 console.log(data)

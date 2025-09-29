@@ -3,14 +3,16 @@ import { BiCart } from "react-icons/bi"
 import { FaStar, FaStarHalf } from "react-icons/fa"
 import { GoArrowRight } from "react-icons/go"
 import { Link } from "react-router-dom"
+import ProgressBar from "./ProgressBar"
 
 const FlashSales = () => {
     const [item, setItem] = useState([])
+    const API_URL = import.meta.env.VITE_API_URL
 
     useEffect(() => {
         const fetchdata = async () => {
             try {
-                const response = await fetch(`https://commerce-ow7c.onrender.com/items`)
+                const response = await fetch(`${API_URL}/items`)
                 const data = await response.json()
                 setItem(data.slice(0, 4))
             } catch (error) {
@@ -22,7 +24,7 @@ const FlashSales = () => {
 
 
     return(
-        <section className="px-2 sm:px-4 lg:px-32 relative max-w-screen-xl m-auto mt-8"> 
+        <section className="px-4 sm:px-4 lg:px-32 relative max-w-screen-xl m-auto mt-8"> 
             <div className="h-12 bg-red-500 rounded-xl flex justify-between items-center px-4">
                 <p className="font-bold text-white">Flash Sales</p>
                 <Link className=" p-2.5 px-3 flex items-center gap-2 bg-red-500 text-white"><span>View</span>  <GoArrowRight /></Link>
@@ -32,13 +34,14 @@ const FlashSales = () => {
                 {
                     item.map(each => (
                         <div className="h-auto bg-white">
-                            <div className="w-full h-50 bg-[#f5f5f5]"><img className="w-full h-full object-cover" src={``} alt="" /></div>
+                            <div className="w-full h-50 bg-[#f5f5f5]"><img className="w-full h-full object-cover" src={each.media.thumbnail} alt="" /></div>
                             <p className="mt-3  text-black/60">Royal and Luxury Sofa Set</p>
                             <div className="flex my-1 items-center gap-1">
                                 <p className="text-red-500 font-bold text-xl">₦90,899</p>
                                 <span className="text-black/40 line-through">₦9,070</span>
                                 <span className="text-black/60">🔥126 sold</span>
                             </div>
+                            <ProgressBar />
                             {/* stars */}
                             <div className="flex justify-between items-center">
                                 <div className="flex gap-1 my-1 items-center">

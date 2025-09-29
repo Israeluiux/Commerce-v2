@@ -3,11 +3,12 @@ import TrendCard from "../Components/Home/Trendingcard"
 
 const Category = () => {
     const [category, setCategory] = useState([])
+    const API_URL = import.meta.env.VITE_API_URL
 
     useEffect(() => {
         const fetchdata = async () => {
             try {
-                const response = await fetch('https://commerce-ow7c.onrender.com/category')
+                const response = await fetch(`${API_URL}/category`)
                 const data = await response.json()
                 setCategory(data.slice())
             } catch (error) {

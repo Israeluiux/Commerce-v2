@@ -3,11 +3,12 @@ import { useEffect, useState } from 'react'
 
 const Trending = () => {
     const [category, setCategory] = useState([])
+    const API_URL = import.meta.env.VITE_API_URL
 
     useEffect(() => {
         const fetchdata = async () => {
             try {
-                const response = await fetch('https://commerce-ow7c.onrender.com/category')
+                const response = await fetch(`${API_URL}/category`)
                 const data = await response.json()
                 setCategory(data.slice(0, 6))
             } catch (error) {
@@ -19,7 +20,7 @@ const Trending = () => {
     
 
     return(
-            <section className="px-3 sm:px-6 lg:px-32 pt-12 max-w-screen-xl m-auto">
+            <section className="px-4 sm:px-6 lg:px-32 pt-12 max-w-screen-xl m-auto">
                 <div className='flex gap-4'>
                     {
                         category.map(each => (

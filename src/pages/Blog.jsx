@@ -4,11 +4,12 @@ import { Link } from "react-router-dom"
 
 const Blog = () => {
     const [blog, setBlog] = useState([])
+    const API_URL = import.meta.env.VITE_API_URL
 
     useEffect(() => {
         const fetchdata = async () => {
             try {
-                const response = await fetch('https://commerce-ow7c.onrender.com/blog')
+                const response = await fetch(`${API_URL}/blog`)
                 const data = await response.json()
                 setBlog(data)
             } catch (error) {
