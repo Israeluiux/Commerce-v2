@@ -729,14 +729,12 @@
   {
     "id": 1,
     "category": "Apple",
-    "image": "https://i.pinimg.com/1200x/a7/8c/40/a78c406e4ad95f68bd8b014582ef3ece.jpg",
-    "text": "Music comes alive with JBL"
+    "image": "https://i.pinimg.com/1200x/a7/8c/40/a78c406e4ad95f68bd8b014582ef3ece.jpg"
   },
   {
     "id": 2,
     "category": "Samsung",
-    "image": "https://i.pinimg.com/736x/1e/ff/ee/1effee290771b47c4d04d95f868f680d.jpg",
-    "text": "Mac touch and feels like heaven"
+    "image": "https://i.pinimg.com/736x/1e/ff/ee/1effee290771b47c4d04d95f868f680d.jpg"
   },
   {
     "id": 3,
@@ -821,3 +819,4 @@
     }
   ]
 }
+
