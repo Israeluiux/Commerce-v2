@@ -7,7 +7,7 @@ const Trending = () => {
     useEffect(() => {
         const fetchdata = async () => {
             try {
-                const response = await fetch('http://localhost:7000/category')
+                const response = await fetch('https://commerce-v2.onrender.com/category')
                 const data = await response.json()
                 setCategory(data.slice(0, 6))
             } catch (error) {
@@ -38,11 +38,3 @@ const Trending = () => {
 }
 
 export default Trending
-{/* <p className="text-3xl mb-8">Explore Trending Categories</p>
-<div className=" grid gap-4" style={{gridTemplateColumns: 'repeat(auto-fit, minmax(23rem, 1fr))'}}>
-    {
-        category.map(each => (
-            <TrendCard img={each.image} text={each.text} key={each.id} category={each.category} />
-        ))
-    }
-</div> */}

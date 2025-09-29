@@ -9,15 +9,15 @@ const Card = ({ item }) => {
     
     return(
             <div className="rounded-2xl relative flex flex-col">
-                <div className="h-auto w-60 bg-white">
+                <div className="h-auto bg-white">
                     <div className="w-full h-50 bg-[#f5f5f5]"><img className="w-full h-full object-cover" src={minimal} alt="" /></div>
                     <p className="mt-3  text-black/60">Royal and Luxury Sofa Set</p>
                     <div className="flex my-1 items-center gap-1">
-                        <p className="text-red-500 font-bold text-xl">₦58,899</p>
-                        <span className="text-black/40 line-through">₦90,700</span>
+                        <p className="text-red-500 font-bold text-xl">₦{price}</p>
+                        <span className="text-black/40 line-through">₦9,070</span>
                         <span className="text-black/60">🔥126 sold</span>
                     </div>
-                    <p className="text-red-500 my-1">Only 6 pieces left</p>
+                    <p className="text-red-500 my-1">Only {item.inventory.stockQuantity} pieces left</p>
                     {/* stars */}
                     <div className="flex justify-between items-center">
                         <div className="flex gap-1 my-1 items-center">

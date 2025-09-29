@@ -13,7 +13,7 @@
         { "url": "https://example.com/products/headphones2.jpg", "alt": "Headphones side" }
       ]
     },
-    "pricing": { "price": 199.99, "salePrice": 149.99, "currency": "USD" },
+    "pricing": { "price": 1999.99, "salePrice": 149.99, "currency": "USD" },
     "categorization": { "category": "Headset", "subCategory": "Audio" },
     "inventory": { "sku": "WH-1234", "stockQuantity": 120 },
     "brand": { "name": "SoundMax" },
@@ -53,7 +53,7 @@
         { "url": "https://example.com/products/phone2.jpg", "alt": "Phone back" }
       ]
     },
-    "pricing": { "price": 899.99, "currency": "USD" },
+    "pricing": { "price": 8990.99, "currency": "USD" },
     "categorization": { "category": "Phones", "subCategory": "Mobile Phones" },
     "inventory": { "sku": "SPX200-BLK", "stockQuantity": 50 },
     "brand": { "name": "TechOne" },
@@ -126,7 +126,7 @@
         { "url": "https://example.com/products/tv1.jpg", "alt": "TV front" }
       ]
     },
-    "pricing": { "price": 699.99, "salePrice": 649.99, "currency": "USD" },
+    "pricing": { "price": 1699.99, "salePrice": 649.99, "currency": "USD" },
     "categorization": { "category": "Electronics", "subCategory": "Televisions" },
     "inventory": { "sku": "TV55-4K", "stockQuantity": 42 },
     "brand": { "name": "VisionPro" },
@@ -160,7 +160,7 @@
         { "url": "https://example.com/products/watch1.jpg", "alt": "Smartwatch display" }
       ]
     },
-    "pricing": { "price": 249.99, "currency": "USD" },
+    "pricing": { "price": 9249.99, "currency": "USD" },
     "categorization": { "category": "Electronics", "subCategory": "Wearables" },
     "inventory": { "sku": "SW-S5", "stockQuantity": 75 },
     "brand": { "name": "PulseTech" },
@@ -194,7 +194,7 @@
         { "url": "https://example.com/products/speaker1.jpg", "alt": "Bluetooth speaker" }
       ]
     },
-    "pricing": { "price": 99.99, "salePrice": 79.99, "currency": "USD" },
+    "pricing": { "price": 1099.99, "salePrice": 79.99, "currency": "USD" },
     "categorization": { "category": "Speaker", "subCategory": "Audio" },
     "inventory": { "sku": "BTS-222", "stockQuantity": 150 },
     "brand": { "name": "BeatBox" },
@@ -228,7 +228,7 @@
         { "url": "https://example.com/products/mouse1.jpg", "alt": "Gaming mouse" }
       ]
     },
-    "pricing": { "price": 59.99, "currency": "USD" },
+    "pricing": { "price": 259.99, "currency": "USD" },
     "categorization": { "category": "Electronics", "subCategory": "Gaming Accessories" },
     "inventory": { "sku": "GM-888", "stockQuantity": 200 },
     "brand": { "name": "ClickMaster" },
@@ -265,7 +265,7 @@
         { "url": "https://example.com/products/keyboard1.jpg", "alt": "Mechanical keyboard" }
       ]
     },
-    "pricing": { "price": 129.99, "currency": "USD" },
+    "pricing": { "price": 1229.99, "currency": "USD" },
     "categorization": { "category": "Electronics", "subCategory": "Computer Accessories" },
     "inventory": { "sku": "MK-101", "stockQuantity": 95 },
     "brand": { "name": "KeyForge" },
@@ -338,7 +338,7 @@
         { "url": "https://example.com/products/airpurifier1.jpg", "alt": "Air purifier" }
       ]
     },
-    "pricing": { "price": 199.99, "salePrice": 179.99, "currency": "USD" },
+    "pricing": { "price": 19900.99, "salePrice": 179.99, "currency": "USD" },
     "categorization": { "category": "Home Appliances", "subCategory": "Air Care" },
     "inventory": { "sku": "AP-450", "stockQuantity": 60 },
     "brand": { "name": "BreatheEasy" },
@@ -375,7 +375,7 @@
         { "url": "https://example.com/products/speaker2.jpg", "alt": "Speaker side" }
       ]
     },
-    "pricing": { "price": 89.99, "currency": "USD" },
+    "pricing": { "price": 8999.99, "currency": "USD" },
     "categorization": { "category": "Speaker", "subCategory": "Audio" },
     "inventory": { "sku": "PBSPK-11", "stockQuantity": 140 },
     "brand": { "name": "BeatBox" },
@@ -410,7 +410,7 @@
         { "url": "https://example.com/products/smartwatch2.jpg", "alt": "Smartwatch straps" }
       ]
     },
-    "pricing": { "price": 349.99, "currency": "USD" },
+    "pricing": { "price": 10349.99, "currency": "USD" },
     "categorization": { "category": "Wearables", "subCategory": "Smartwatches" },
     "inventory": { "sku": "SWTCH-6", "stockQuantity": 65 },
     "brand": { "name": "TimeTek" },
@@ -445,7 +445,7 @@
         { "url": "https://example.com/products/camera2.jpg", "alt": "Camera with lens" }
       ]
     },
-    "pricing": { "price": 1299.99, "currency": "USD" },
+    "pricing": { "price": 21299.99, "currency": "USD" },
     "categorization": { "category": "Electronics", "subCategory": "Cameras" },
     "inventory": { "sku": "XT500-DSLR", "stockQuantity": 25 },
     "brand": { "name": "Photonix" },
@@ -482,7 +482,7 @@
         { "url": "https://example.com/products/console2.jpg", "alt": "Console controller" }
       ]
     },
-    "pricing": { "price": 599.99, "currency": "USD" },
+    "pricing": { "price": 7599.99, "currency": "USD" },
     "categorization": { "category": "Gaming", "subCategory": "Consoles" },
     "inventory": { "sku": "GCON-Z5", "stockQuantity": 90 },
     "brand": { "name": "GameVerse" },
@@ -519,7 +519,7 @@
         { "url": "https://example.com/products/keyboard2.jpg", "alt": "Keyboard side profile" }
       ]
     },
-    "pricing": { "price": 129.99, "currency": "USD" },
+    "pricing": { "price": 2129.99, "currency": "USD" },
     "categorization": { "category": "Gaming", "subCategory": "Accessories" },
     "inventory": { "sku": "KBM-GM-15", "stockQuantity": 170 },
     "brand": { "name": "KeyForge" },
@@ -555,7 +555,7 @@
         { "url": "https://example.com/products/tv2.jpg", "alt": "TV side view" }
       ]
     },
-    "pricing": { "price": 699.99, "currency": "USD" },
+    "pricing": { "price": 10699.99, "currency": "USD" },
     "categorization": { "category": "Electronics", "subCategory": "Televisions" },
     "inventory": { "sku": "TV55-4K-SMRT", "stockQuantity": 60 },
     "brand": { "name": "VisionTech" },
@@ -592,7 +592,7 @@
         { "url": "https://example.com/products/robotvac2.jpg", "alt": "Robot vacuum docked" }
       ]
     },
-    "pricing": { "price": 399.99, "currency": "USD" },
+    "pricing": { "price": 29399.99, "currency": "USD" },
     "categorization": { "category": "Home Appliances", "subCategory": "Cleaning" },
     "inventory": { "sku": "RBVAC-500", "stockQuantity": 80 },
     "brand": { "name": "CleanBot" },
@@ -628,7 +628,7 @@
         { "url": "https://example.com/products/airfryer2.jpg", "alt": "Air fryer open basket" }
       ]
     },
-    "pricing": { "price": 159.99, "currency": "USD" },
+    "pricing": { "price": 90159.99, "currency": "USD" },
     "categorization": { "category": "Home Appliances", "subCategory": "Kitchen" },
     "inventory": { "sku": "AFPRO-6L", "stockQuantity": 100 },
     "brand": { "name": "CookEase" },
@@ -664,7 +664,7 @@
         { "url": "https://example.com/products/kettle2.jpg", "alt": "Kettle with LED light" }
       ]
     },
-    "pricing": { "price": 49.99, "currency": "USD" },
+    "pricing": { "price": 12049.99, "currency": "USD" },
     "categorization": { "category": "Home Appliances", "subCategory": "Kitchen" },
     "inventory": { "sku": "KETTLE-GLS-17", "stockQuantity": 200 },
     "brand": { "name": "BoilSmart" },
@@ -700,7 +700,7 @@
         { "url": "https://example.com/products/airpurifier2.jpg", "alt": "Air purifier display" }
       ]
     },
-    "pricing": { "price": 229.99, "currency": "USD" },
+    "pricing": { "price": 100229.99, "currency": "USD" },
     "categorization": { "category": "Home Appliances", "subCategory": "Air Quality" },
     "inventory": { "sku": "AIRP-500-SMRT", "stockQuantity": 75 },
     "brand": { "name": "PureBreathe" },
@@ -729,36 +729,36 @@
   {
     "id": 1,
     "category": "Apple",
-    "image": "./src/assets/jbl.jpg",
+    "image": "https://i.pinimg.com/1200x/a7/8c/40/a78c406e4ad95f68bd8b014582ef3ece.jpg",
     "text": "Music comes alive with JBL"
   },
   {
     "id": 2,
     "category": "Samsung",
-    "image": "./src/assets/mac.jpg",
+    "image": "https://i.pinimg.com/736x/1e/ff/ee/1effee290771b47c4d04d95f868f680d.jpg",
     "text": "Mac touch and feels like heaven"
   },
   {
     "id": 3,
     "category": "Hisense",
-    "image": "./src/assets/iphone.jpg",
+    "image": "https://i.pinimg.com/1200x/ba/d7/ee/bad7eebb17193ea5229d597e5558f461.jpg",
     "text": "Explore the world with an iphone from our store"
   },
   {
     "id": 4,
     "category": "LG",
-    "image": "./src/assets/Airpodpro.jpg",
+    "image": "https://i.pinimg.com/736x/62/c2/b2/62c2b20d00098495ceea161b3d142595.jpg",
     "text": "Noise cancellation at it's peak"
   },
   {
     "id": 5,
-    "image": "",
+    "image": "https://i.pinimg.com/736x/43/b9/fb/43b9fb120ad43e136d5c13590cc915b8.jpg",
     "category": "Panasonic",
     "text": "Jewellry for high classy people"
   },
   {
     "id": 6,
-    "image": "",
+    "image": "https://i.pinimg.com/1200x/c3/0a/b8/c30ab88c6252eee1fcc2e440859e6591.jpg",
     "category": "Adidas",
     "text": "Quality electronics to view the world from a classy perspective"
   },

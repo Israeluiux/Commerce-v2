@@ -1,4 +1,5 @@
 import CTO from "../Components/Home/CTO";
+import FlashSales from "../Components/Home/FlashSales";
 import Hero from "../Components/Home/Hero";
 import Product from "../Components/Home/Product";
 import Recommend from "../Components/Home/Recommend";
@@ -9,6 +10,7 @@ const Home = () => {
     <div className="relative">
       <Hero />
       <Trending />
+      <FlashSales />
       <Product />
 
       {/* <Recommend /> */}
