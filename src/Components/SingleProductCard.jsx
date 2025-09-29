@@ -27,7 +27,7 @@ const SingleProductCard = () => {
     useEffect(() => {
         const fetchdata = async () => {
             try {
-                const response = await fetch(`http://localhost:7000/items/${id}`)
+                const response = await fetch(`https://commerce-ow7c.onrender.com/items/${id}`)
                 const data = await response.json()
                 setItem(data)
                 console.log(data)

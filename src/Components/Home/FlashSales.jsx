@@ -10,7 +10,7 @@ const FlashSales = () => {
     useEffect(() => {
         const fetchdata = async () => {
             try {
-                const response = await fetch(`https://commerce-v2.onrender.com/items`)
+                const response = await fetch(`https://commerce-ow7c.onrender.com/items`)
                 const data = await response.json()
                 setItem(data.slice(0, 4))
             } catch (error) {

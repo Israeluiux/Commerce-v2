@@ -8,7 +8,7 @@ const AllProduct = () => {
     useEffect(() => {
         const fetchdata = async () => {
             try {
-                const response = await fetch('http://localhost:7000/items')
+                const response = await fetch('https://commerce-ow7c.onrender.com/items')
                 const data = await response.json()
                 setItems(data)
             } catch (error) {
