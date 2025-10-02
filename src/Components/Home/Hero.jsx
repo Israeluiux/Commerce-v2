@@ -5,7 +5,8 @@ import HeroCard from "./HeroCard"
 
 const Hero = () => {
     return (
-          <div className="h-100 w-full px-28 bg-red-600 max-w-screen-xl gap-3 z-0 m-auto">
+      <section className="w-full bg-red-600">
+          <div className="h-100 w-full px-28  max-w-screen-xl gap-3 z-0 m-auto">
             <div className="h-full w-full flex justify-between items-center">
              <div className=" flex justify-center flex-col gap-7">
               {/* Left side of the Hero section */}
@@ -20,6 +21,7 @@ const Hero = () => {
                   <HeroCard />
             </div>
           </div>
+      </section>
     )
 }
 
